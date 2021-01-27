@@ -1,0 +1,556 @@
+,日期Date,指数代码Index Code,指数名称Index Name,指数英文名称Index Name(Eng.),成分券代码Constituent Code,成分券名称Constituent Name,成分券英文名称Constituent Name(Eng.),交易所Exchange
+0,2021-01-26,500,内地企业,Mainland Enterprises,148,建滔集团,Kingboard Holdings Limited,HKG
+1,2021-01-26,500,内地企业,Mainland Enterprises,151,中国旺旺,Want Want China,HKG
+2,2021-01-26,500,内地企业,Mainland Enterprises,168,青岛啤酒股份,Tsingtao,HKG
+3,2021-01-26,500,内地企业,Mainland Enterprises,175,吉利汽车,Geely,HKG
+4,2021-01-26,500,内地企业,Mainland Enterprises,241,阿里健康,Alibaba Health Information Technology Limited,HKG
+5,2021-01-26,500,内地企业,Mainland Enterprises,257,光大环境,China Everbright Environment Group Limited,HKG
+6,2021-01-26,500,内地企业,Mainland Enterprises,267,中信股份,CITIC Limited,HKG
+7,2021-01-26,500,内地企业,Mainland Enterprises,268,金蝶国际,Kingdee Intl,HKG
+8,2021-01-26,500,内地企业,Mainland Enterprises,270,粤海投资,Guangdong Invest,HKG
+9,2021-01-26,500,内地企业,Mainland Enterprises,285,比亚迪电子,Byd Electronic,HKG
+10,2021-01-26,500,内地企业,Mainland Enterprises,291,华润啤酒,China Resources Beer (Holdings) Company Limited,HKG
+11,2021-01-26,500,内地企业,Mainland Enterprises,317,中船防务,CSSC Offshore & Marine Engineering (Group) Company Limited,HKG
+12,2021-01-26,500,内地企业,Mainland Enterprises,322,康师傅控股,Tingyi,HKG
+13,2021-01-26,500,内地企业,Mainland Enterprises,347,鞍钢股份,Ansteel,HKG
+14,2021-01-26,500,内地企业,Mainland Enterprises,358,江西铜业股份,Jiangxi Copper,HKG
+15,2021-01-26,500,内地企业,Mainland Enterprises,384,中国燃气,China Gas Hldg,HKG
+16,2021-01-26,500,内地企业,Mainland Enterprises,386,中国石油化工股份,Sinopec Corp,HKG
+17,2021-01-26,500,内地企业,Mainland Enterprises,390,中国中铁,CN Railway Grp,HKG
+18,2021-01-26,500,内地企业,Mainland Enterprises,425,敏实集团,Minth Group,HKG
+19,2021-01-26,500,内地企业,Mainland Enterprises,586,海螺创业,China Conch Venture Holdings Limited,HKG
+20,2021-01-26,500,内地企业,Mainland Enterprises,656,复星国际,Fosun Intl,HKG
+21,2021-01-26,500,内地企业,Mainland Enterprises,670,中国东方航空股份,China East Air,HKG
+22,2021-01-26,500,内地企业,Mainland Enterprises,688,中国海外发展,China Overseas,HKG
+23,2021-01-26,500,内地企业,Mainland Enterprises,700,腾讯控股,Tencent Hldg,HKG
+24,2021-01-26,500,内地企业,Mainland Enterprises,753,中国国航,Air China,HKG
+25,2021-01-26,500,内地企业,Mainland Enterprises,762,中国联通,China Unicom,HKG
+26,2021-01-26,500,内地企业,Mainland Enterprises,763,中兴通讯,ZTE Corp,HKG
+27,2021-01-26,500,内地企业,Mainland Enterprises,772,阅文集团,CHINA LITERATURE LIMITED,HKG
+28,2021-01-26,500,内地企业,Mainland Enterprises,788,中国铁塔,China Tower Corporation Limited,HKG
+29,2021-01-26,500,内地企业,Mainland Enterprises,813,世茂集团,Shimao Group Holdings Limited,HKG
+30,2021-01-26,500,内地企业,Mainland Enterprises,817,中国金茂,China Jinmao Holdings Group Limited,HKG
+31,2021-01-26,500,内地企业,Mainland Enterprises,857,中国石油股份,PetroChina,HKG
+32,2021-01-26,500,内地企业,Mainland Enterprises,868,信义玻璃,XINYI GLASS,HKG
+33,2021-01-26,500,内地企业,Mainland Enterprises,874,白云山,Guangzhou Baiyunshan Pharmaceutical Holdings Company Limited,HKG
+34,2021-01-26,500,内地企业,Mainland Enterprises,881,中升控股,Zhongsheng Hldg,HKG
+35,2021-01-26,500,内地企业,Mainland Enterprises,883,中国海洋石油,CNOOC,HKG
+36,2021-01-26,500,内地企业,Mainland Enterprises,902,华能国际电力股份,HPI Inc,HKG
+37,2021-01-26,500,内地企业,Mainland Enterprises,909,明源云,Ming Yuan Cloud Group Holdings Limited,HKG
+38,2021-01-26,500,内地企业,Mainland Enterprises,914,海螺水泥,ANHUI CONCH CEMENT COMPANY LIMITED,HKG
+39,2021-01-26,500,内地企业,Mainland Enterprises,939,建设银行,CCB Corp,HKG
+40,2021-01-26,500,内地企业,Mainland Enterprises,941,中国移动,China Mobile Ltd,HKG
+41,2021-01-26,500,内地企业,Mainland Enterprises,960,龙湖集团,Longfor Group Holdings Limited,HKG
+42,2021-01-26,500,内地企业,Mainland Enterprises,968,信义光能,Xinyi Solar Holdings Limited,HKG
+43,2021-01-26,500,内地企业,Mainland Enterprises,981,中芯国际,Semiconductor MI,HKG
+44,2021-01-26,500,内地企业,Mainland Enterprises,992,联想集团,Lenovo Group,HKG
+45,2021-01-26,500,内地企业,Mainland Enterprises,1044,恒安国际,Hengan Intl,HKG
+46,2021-01-26,500,内地企业,Mainland Enterprises,1055,中国南方航空股份,China Southern,HKG
+47,2021-01-26,500,内地企业,Mainland Enterprises,1060,阿里影业,Alibaba Pictures Group Limited,HKG
+48,2021-01-26,500,内地企业,Mainland Enterprises,1066,威高股份,Weigao Group,HKG
+49,2021-01-26,500,内地企业,Mainland Enterprises,1088,中国神华,China Shenhua,HKG
+50,2021-01-26,500,内地企业,Mainland Enterprises,1093,石药集团,CSPC Pharma Grp,HKG
+51,2021-01-26,500,内地企业,Mainland Enterprises,1109,华润置地,China Res Land,HKG
+52,2021-01-26,500,内地企业,Mainland Enterprises,1114,BRILLIANCE CHI,Brilliance Autom,HKG
+53,2021-01-26,500,内地企业,Mainland Enterprises,1157,中联重科,Zoomlion Tech,HKG
+54,2021-01-26,500,内地企业,Mainland Enterprises,1171,兖州煤业股份,Yanzhou Coal,HKG
+55,2021-01-26,500,内地企业,Mainland Enterprises,1177,中国生物制药,Sino Biopharm,HKG
+56,2021-01-26,500,内地企业,Mainland Enterprises,1186,中国铁建,CRCC,HKG
+57,2021-01-26,500,内地企业,Mainland Enterprises,1193,华润燃气,CN Resources Gas,HKG
+58,2021-01-26,500,内地企业,Mainland Enterprises,1211,比亚迪股份,BYD,HKG
+59,2021-01-26,500,内地企业,Mainland Enterprises,1288,农业银行,ABC Ltd,HKG
+60,2021-01-26,500,内地企业,Mainland Enterprises,1313,华润水泥控股,China Res Cement,HKG
+61,2021-01-26,500,内地企业,Mainland Enterprises,1398,工商银行,ICBC,HKG
+62,2021-01-26,500,内地企业,Mainland Enterprises,1579,颐海国际,YIHAI INTERNATIONAL HOLDING LTD.,HKG
+63,2021-01-26,500,内地企业,Mainland Enterprises,1658,邮储银行,"Postal Savings Bank of China Co., Ltd.",HKG
+64,2021-01-26,500,内地企业,Mainland Enterprises,1766,中国中车,CRRC CORPORATION LIMITED,HKG
+65,2021-01-26,500,内地企业,Mainland Enterprises,1772,赣锋锂业,"Ganfeng Lithium Co., Ltd.",HKG
+66,2021-01-26,500,内地企业,Mainland Enterprises,1776,广发证券,"GF SECURITIES CO., LTD.",HKG
+67,2021-01-26,500,内地企业,Mainland Enterprises,1787,山东黄金,"SHANDONG GOLD MINING CO., LTD.",HKG
+68,2021-01-26,500,内地企业,Mainland Enterprises,1800,中国交通建设,China Commu Cons,HKG
+69,2021-01-26,500,内地企业,Mainland Enterprises,1801,信达生物,"Innovent Biologics, Inc.",HKG
+70,2021-01-26,500,内地企业,Mainland Enterprises,1810,小米集团-W,XIAOMI CORPORATION,HKG
+71,2021-01-26,500,内地企业,Mainland Enterprises,1816,中广核电力,"CGN Power Co., Ltd.",HKG
+72,2021-01-26,500,内地企业,Mainland Enterprises,1833,平安好医生,PING AN HEALTHCARE AND TECHNOLOGY COMPANY LIMITED,HKG
+73,2021-01-26,500,内地企业,Mainland Enterprises,1888,建滔积层板,KB Laminates,HKG
+74,2021-01-26,500,内地企业,Mainland Enterprises,1918,融创中国,Sunac China,HKG
+75,2021-01-26,500,内地企业,Mainland Enterprises,1919,中远海控,"COSCO SHIPPING Holdings Co., Ltd.",HKG
+76,2021-01-26,500,内地企业,Mainland Enterprises,2007,碧桂园,Country Garden,HKG
+77,2021-01-26,500,内地企业,Mainland Enterprises,2018,瑞声科技,AAC Technologies,HKG
+78,2021-01-26,500,内地企业,Mainland Enterprises,2020,安踏体育,Anta Sports,HKG
+79,2021-01-26,500,内地企业,Mainland Enterprises,2128,中国联塑,China Liansu,HKG
+80,2021-01-26,500,内地企业,Mainland Enterprises,2196,复星医药,"Shanghai Fosun Pharmaceutical (Group) Co., Ltd.",HKG
+81,2021-01-26,500,内地企业,Mainland Enterprises,2202,万科企业,"CHINA VANKE CO., LTD.",HKG
+82,2021-01-26,500,内地企业,Mainland Enterprises,2208,金风科技,Goldwind,HKG
+83,2021-01-26,500,内地企业,Mainland Enterprises,2238,广汽集团,GAC Group,HKG
+84,2021-01-26,500,内地企业,Mainland Enterprises,2269,药明生物,WUXI BIOLOGICS (CAYMAN) INC.,HKG
+85,2021-01-26,500,内地企业,Mainland Enterprises,2313,申洲国际,Shenzhou,HKG
+86,2021-01-26,500,内地企业,Mainland Enterprises,2318,中国平安,Cn Ping An,HKG
+87,2021-01-26,500,内地企业,Mainland Enterprises,2319,蒙牛乳业,Mengniu Dairy,HKG
+88,2021-01-26,500,内地企业,Mainland Enterprises,2331,李宁,Li Ning,HKG
+89,2021-01-26,500,内地企业,Mainland Enterprises,2333,长城汽车,Great Wall Motor,HKG
+90,2021-01-26,500,内地企业,Mainland Enterprises,2338,潍柴动力,Weichai Power,HKG
+91,2021-01-26,500,内地企业,Mainland Enterprises,2357,中航科工,AviChina,HKG
+92,2021-01-26,500,内地企业,Mainland Enterprises,2359,药明康德,"WUXI APPTEC CO., LTD.",HKG
+93,2021-01-26,500,内地企业,Mainland Enterprises,2382,舜宇光学科技,Sunny Optical,HKG
+94,2021-01-26,500,内地企业,Mainland Enterprises,2600,中国铝业,Aluminum,HKG
+95,2021-01-26,500,内地企业,Mainland Enterprises,2607,上海医药,SPH,HKG
+96,2021-01-26,500,内地企业,Mainland Enterprises,2628,中国人寿,China Life Ins,HKG
+97,2021-01-26,500,内地企业,Mainland Enterprises,2688,新奥能源,ENN Energy,HKG
+98,2021-01-26,500,内地企业,Mainland Enterprises,2689,玖龙纸业,Nine Dragons,HKG
+99,2021-01-26,500,内地企业,Mainland Enterprises,2883,中海油田服务,COSL,HKG
+100,2021-01-26,500,内地企业,Mainland Enterprises,2899,紫金矿业,Zijin Mining Grp,HKG
+101,2021-01-26,500,内地企业,Mainland Enterprises,3311,中国建筑国际,CH State Constr,HKG
+102,2021-01-26,500,内地企业,Mainland Enterprises,3320,华润医药,China Resources Pharmaceutical Group Limited,HKG
+103,2021-01-26,500,内地企业,Mainland Enterprises,3323,中国建材,CN Building Matl,HKG
+104,2021-01-26,500,内地企业,Mainland Enterprises,3333,中国恒大,China Evergrande Group,HKG
+105,2021-01-26,500,内地企业,Mainland Enterprises,3347,泰格医药,"HANGZHOU TIGERMED CONSULTING CO., LTD.",HKG
+106,2021-01-26,500,内地企业,Mainland Enterprises,3380,龙光集团,Logan Group Company Limited,HKG
+107,2021-01-26,500,内地企业,Mainland Enterprises,3606,福耀玻璃,"Fuyao Glass Industry Group Co., Ltd.",HKG
+108,2021-01-26,500,内地企业,Mainland Enterprises,3690,美团-W,Meituan,HKG
+109,2021-01-26,500,内地企业,Mainland Enterprises,3692,翰森制药,Hansoh Pharmaceutical Group Company Limited,HKG
+110,2021-01-26,500,内地企业,Mainland Enterprises,3759,康龙化成,"Pharmaron Beijing Co., Ltd.",HKG
+111,2021-01-26,500,内地企业,Mainland Enterprises,3808,中国重汽,Sinotruk HK,HKG
+112,2021-01-26,500,内地企业,Mainland Enterprises,3888,金山软件,Kingsoft,HKG
+113,2021-01-26,500,内地企业,Mainland Enterprises,3968,招商银行,CN Merchants BK,HKG
+114,2021-01-26,500,内地企业,Mainland Enterprises,3988,中国银行,Bank of China,HKG
+115,2021-01-26,500,内地企业,Mainland Enterprises,3993,洛阳钼业,CN Molybdenum,HKG
+116,2021-01-26,500,内地企业,Mainland Enterprises,3998,波司登,Bosideng,HKG
+117,2021-01-26,500,内地企业,Mainland Enterprises,6030,中信证券,CITIC Securities,HKG
+118,2021-01-26,500,内地企业,Mainland Enterprises,6066,中信建投证券,"CSC Financial Co., Ltd.",HKG
+119,2021-01-26,500,内地企业,Mainland Enterprises,6098,碧桂园服务,Country Garden Services Holdings Company Limited,HKG
+120,2021-01-26,500,内地企业,Mainland Enterprises,6099,招商证券,"China Merchants Securities Co.,Ltd.",HKG
+121,2021-01-26,500,内地企业,Mainland Enterprises,6110,滔搏,Topsports International Holdings Limited,HKG
+122,2021-01-26,500,内地企业,Mainland Enterprises,6186,中国飞鹤,China Feihe Limited,HKG
+123,2021-01-26,500,内地企业,Mainland Enterprises,6808,高鑫零售,Sun Art,HKG
+124,2021-01-26,500,内地企业,Mainland Enterprises,6837,海通证券,"Haitong Securities Co., Ltd.",HKG
+125,2021-01-26,500,内地企业,Mainland Enterprises,6862,海底捞,HAIDILAO INTERNATIONAL HOLDING LTD.,HKG
+126,2021-01-26,500,内地企业,Mainland Enterprises,6865,福莱特玻璃,"Flat Glass Group Co., Ltd.",HKG
+127,2021-01-26,500,内地企业,Mainland Enterprises,6886,HTSC,Huatai Securities Co Ltd,HKG
+128,2021-01-26,500,内地企业,Mainland Enterprises,6969,思摩尔国际,Smoore International Holdings Limited,HKG
+129,2021-01-26,500,内地企业,Mainland Enterprises,9633,农夫山泉,"NONGFU SPRING CO., LTD.",HKG
+130,2021-01-26,500,内地企业,Mainland Enterprises,GDS,GDS Holdings Ltd,GDS Holdings Ltd,NMQ
+131,2021-01-26,500,内地企业,Mainland Enterprises,IQ,IQIYI,IQIYI ADS REP 7 CL A ORD,NSQ
+132,2021-01-26,500,内地企业,Mainland Enterprises,JD,京东商城,JD.com Inc,NSQ
+133,2021-01-26,500,内地企业,Mainland Enterprises,KC,金山云,KINGSOFT CLOUD HOLD ADR REP 15 ORD,NSQ
+134,2021-01-26,500,内地企业,Mainland Enterprises,LI,理想汽车,LI AUTO ADR 2 ORD,NSQ
+135,2021-01-26,500,内地企业,Mainland Enterprises,WB,微博,Weibo Corp,NSQ
+136,2021-01-26,500,内地企业,Mainland Enterprises,YY,欢聚时代,YY,NSQ
+137,2021-01-26,500,内地企业,Mainland Enterprises,PDD,拼多多,PINDUODUO ADR REP 4 ORD,NSQ
+138,2021-01-26,500,内地企业,Mainland Enterprises,BGNE,BeiGene Ltd,BeiGene Ltd,NSQ
+139,2021-01-26,500,内地企业,Mainland Enterprises,BIDU,百度,Baidu,NSQ
+140,2021-01-26,500,内地企业,Mainland Enterprises,BILI,哔哩哔哩,BILIBILI ADS,NSQ
+141,2021-01-26,500,内地企业,Mainland Enterprises,DOYU,斗鱼,DOUYU INTERNATIONAL HOLDINGS ADR,NSQ
+142,2021-01-26,500,内地企业,Mainland Enterprises,JOBS,前程无忧,51job,NSQ
+143,2021-01-26,500,内地企业,Mainland Enterprises,MOMO,陌陌,Momo Inc,NSQ
+144,2021-01-26,500,内地企业,Mainland Enterprises,NTES,网易,NetEase,NSQ
+145,2021-01-26,500,内地企业,Mainland Enterprises,EDU,新东方教育,New Oriental,NYS
+146,2021-01-26,500,内地企业,Mainland Enterprises,NIO,蔚来,NIO ADS REP 1 CL A ORD,NYS
+147,2021-01-26,500,内地企业,Mainland Enterprises,TAL,好未来,TAL Edu Grp,NYS
+148,2021-01-26,500,内地企业,Mainland Enterprises,TME,腾讯音乐,TENCENT MUSC ENT ADR REP 2 CL A ORD,NYS
+149,2021-01-26,500,内地企业,Mainland Enterprises,ZTO,ZTO Express (Cayman) Inc,ZTO Express (Cayman) Inc,NYS
+150,2021-01-26,500,内地企业,Mainland Enterprises,ATHM,汽车之家,Autohome Inc,NYS
+151,2021-01-26,500,内地企业,Mainland Enterprises,BABA,阿里巴巴,ALIBABA GROUP HOLDING,NYS
+152,2021-01-26,500,内地企业,Mainland Enterprises,HUYA,虎牙直播,HUYA ADR CL A ORD,NYS
+153,2021-01-26,500,内地企业,Mainland Enterprises,VIPS,唯品会,Vipshop Holdings,NYS
+154,2021-01-26,500,内地企业,Mainland Enterprises,YUMC,Yum China Holdings Inc,Yum China Holdings Inc,NYS
+155,2021-01-26,500,内地企业,Mainland Enterprises,600009,上海机场,Shanghai International Airport Co Ltd,SHH
+156,2021-01-26,500,内地企业,Mainland Enterprises,600010,包钢股份,Inner Mongolia Baotou Steel Union Co Ltd,SHH
+157,2021-01-26,500,内地企业,Mainland Enterprises,600011,华能国际,Huaneng Power International Inc,SHH
+158,2021-01-26,500,内地企业,Mainland Enterprises,600018,上港集团,Shanghai International Port (Group) Co Ltd,SHH
+159,2021-01-26,500,内地企业,Mainland Enterprises,600019,宝钢股份,Baoshan Iron &Steel Co Ltd,SHH
+160,2021-01-26,500,内地企业,Mainland Enterprises,600025,华能水电,HuanengLancang River Hydropower Inc.,SHH
+161,2021-01-26,500,内地企业,Mainland Enterprises,600028,中国石化,China Petroleum & Chemical Corporation,SHH
+162,2021-01-26,500,内地企业,Mainland Enterprises,600029,南方航空,China Southern Airlines Co Ltd,SHH
+163,2021-01-26,500,内地企业,Mainland Enterprises,600030,中信证券,CITIC Securities Co Ltd,SHH
+164,2021-01-26,500,内地企业,Mainland Enterprises,600031,三一重工,Sany Heavy Industry Co Ltd,SHH
+165,2021-01-26,500,内地企业,Mainland Enterprises,600036,招商银行,China Merchants Bank Co Ltd,SHH
+166,2021-01-26,500,内地企业,Mainland Enterprises,600038,中直股份,"AVIC Helicopter Co.,Ltd.",SHH
+167,2021-01-26,500,内地企业,Mainland Enterprises,600048,保利地产,"Poly Developments and Holdings Group Co., Ltd.",SHH
+168,2021-01-26,500,内地企业,Mainland Enterprises,600066,宇通客车,Zhengzhou Yutong Bus Co Ltd,SHH
+169,2021-01-26,500,内地企业,Mainland Enterprises,600068,葛洲坝,China Gezhouba Group Co Ltd,SHH
+170,2021-01-26,500,内地企业,Mainland Enterprises,600085,同仁堂,Beijing Tongrentang Co Ltd,SHH
+171,2021-01-26,500,内地企业,Mainland Enterprises,600089,特变电工,TBEA Co Ltd,SHH
+172,2021-01-26,500,内地企业,Mainland Enterprises,600100,同方股份,Tsinghua Tongfang Co Ltd,SHH
+173,2021-01-26,500,内地企业,Mainland Enterprises,600104,上汽集团,SAIC Motor Co Ltd,SHH
+174,2021-01-26,500,内地企业,Mainland Enterprises,600111,北方稀土,"China Northern Rare Earth (Group) High-Tech Co.,Ltd",SHH
+175,2021-01-26,500,内地企业,Mainland Enterprises,600115,东方航空,China Eastern Airlines Corp Ltd,SHH
+176,2021-01-26,500,内地企业,Mainland Enterprises,600118,中国卫星,China Spacesat Co Ltd,SHH
+177,2021-01-26,500,内地企业,Mainland Enterprises,600126,杭钢股份,Hang Zhou Iron & Steel Co Ltd,SHH
+178,2021-01-26,500,内地企业,Mainland Enterprises,600143,金发科技,Kingfa Sci&Tech Co Ltd,SHH
+179,2021-01-26,500,内地企业,Mainland Enterprises,600150,中国船舶,China CSSC Holdings Limited,SHH
+180,2021-01-26,500,内地企业,Mainland Enterprises,600161,天坛生物,Beijing Tiantan Biological Products Co Ltd,SHH
+181,2021-01-26,500,内地企业,Mainland Enterprises,600170,上海建工,Shanghai Construction Co Ltd,SHH
+182,2021-01-26,500,内地企业,Mainland Enterprises,600176,中国巨石,"CHINA JUSHI CO., LTD.",SHH
+183,2021-01-26,500,内地企业,Mainland Enterprises,600177,雅戈尔,Youngor Group Co Ltd,SHH
+184,2021-01-26,500,内地企业,Mainland Enterprises,600183,生益科技,"Shengyi Technology Co.,Ltd.",SHH
+185,2021-01-26,500,内地企业,Mainland Enterprises,600188,兖州煤业,Yanzhou Coal Mining Co Ltd,SHH
+186,2021-01-26,500,内地企业,Mainland Enterprises,600196,复星医药,Shanghai Fosun Pharmaceutical (Group) Co Ltd,SHH
+187,2021-01-26,500,内地企业,Mainland Enterprises,600219,南山铝业,"Shandong Nanshan Aluminium Co., Ltd.",SHH
+188,2021-01-26,500,内地企业,Mainland Enterprises,600271,航天信息,"Aisino Co.,Ltd",SHH
+189,2021-01-26,500,内地企业,Mainland Enterprises,600276,恒瑞医药,Jiangsu Hengrui Medicine Co Ltd,SHH
+190,2021-01-26,500,内地企业,Mainland Enterprises,600297,广汇汽车,"China Grand Automotive Services Co., Ltd.",SHH
+191,2021-01-26,500,内地企业,Mainland Enterprises,600299,安迪苏,Bluestar Adisseo Company,SHH
+192,2021-01-26,500,内地企业,Mainland Enterprises,600309,万华化学,"Wanhua Chemical Group Co., Ltd.",SHH
+193,2021-01-26,500,内地企业,Mainland Enterprises,600323,瀚蓝环境,"Grandblue Environment Co.,Ltd.",SHH
+194,2021-01-26,500,内地企业,Mainland Enterprises,600332,白云山,GUANGZHOU BAIYUNSHAN PHARMACEUTICAL HOLDINGS COMPANY LIMITED,SHH
+195,2021-01-26,500,内地企业,Mainland Enterprises,600340,华夏幸福,"China Fortune Land Development Co., Ltd.",SHH
+196,2021-01-26,500,内地企业,Mainland Enterprises,600346,恒力石化,"Hengli Petrochemical Co.,Ltd.",SHH
+197,2021-01-26,500,内地企业,Mainland Enterprises,600352,浙江龙盛,Zhejiang Longsheng Group Co Ltd,SHH
+198,2021-01-26,500,内地企业,Mainland Enterprises,600362,江西铜业,Jiangxi Copper Co Ltd,SHH
+199,2021-01-26,500,内地企业,Mainland Enterprises,600372,中航电子,"CHINA AVIONICS SYSTEMS CO.,LTD.",SHH
+200,2021-01-26,500,内地企业,Mainland Enterprises,600373,中文传媒,Chinese Universe Publishing And Media Co Ltd,SHH
+201,2021-01-26,500,内地企业,Mainland Enterprises,600383,金地集团,Gemdale Corporation,SHH
+202,2021-01-26,500,内地企业,Mainland Enterprises,600390,五矿资本,Minmetals Capital Company Limited,SHH
+203,2021-01-26,500,内地企业,Mainland Enterprises,600398,海澜之家,"Heilan Home Co.,Ltd",SHH
+204,2021-01-26,500,内地企业,Mainland Enterprises,600406,国电南瑞,"NARI Technology Co., Ltd.",SHH
+205,2021-01-26,500,内地企业,Mainland Enterprises,600415,小商品城,Zhejiang China Commodities City Group Co Ltd,SHH
+206,2021-01-26,500,内地企业,Mainland Enterprises,600426,华鲁恒升,Shandong Hualu-Hengsheng Chemical Co Ltd,SHH
+207,2021-01-26,500,内地企业,Mainland Enterprises,600436,片仔癀,Zhangzhou Pientzehuang Pharmaceutical Co Ltd,SHH
+208,2021-01-26,500,内地企业,Mainland Enterprises,600438,通威股份,Tongwei Co Ltd,SHH
+209,2021-01-26,500,内地企业,Mainland Enterprises,600482,中国动力,"China Shipbuilding Industry Group Power Co.,Ltd",SHH
+210,2021-01-26,500,内地企业,Mainland Enterprises,600486,扬农化工,Jiangsu Yangnong Chemical Co Ltd,SHH
+211,2021-01-26,500,内地企业,Mainland Enterprises,600487,亨通光电,"Hengtong Optic-Electric Co.,Ltd",SHH
+212,2021-01-26,500,内地企业,Mainland Enterprises,600489,中金黄金,Zhongjin Gold Co Ltd,SHH
+213,2021-01-26,500,内地企业,Mainland Enterprises,600497,驰宏锌锗,Yunnan Chihong Zinc&Germanium Co Ltd,SHH
+214,2021-01-26,500,内地企业,Mainland Enterprises,600498,烽火通信,Fiberhome Telecommunication Technologies Co Ltd,SHH
+215,2021-01-26,500,内地企业,Mainland Enterprises,600516,方大炭素,"Fangda Carbon New Material Co.,Ltd",SHH
+216,2021-01-26,500,内地企业,Mainland Enterprises,600517,国网英大,"STATE GRID YINGDA CO.,LTD.",SHH
+217,2021-01-26,500,内地企业,Mainland Enterprises,600519,贵州茅台,Kweichow Moutai Co Ltd,SHH
+218,2021-01-26,500,内地企业,Mainland Enterprises,600522,中天科技,Jiangsu Zhongtian Technologies Co Ltd,SHH
+219,2021-01-26,500,内地企业,Mainland Enterprises,600528,中铁工业,China Railway Hi-tech Industry Corporation Limited,SHH
+220,2021-01-26,500,内地企业,Mainland Enterprises,600529,山东药玻,Shandong Pharmaceutical Glass Co Ltd,SHH
+221,2021-01-26,500,内地企业,Mainland Enterprises,600535,天士力,"TASLY PHARMACEUTICAL GROUP CO.,LTD",SHH
+222,2021-01-26,500,内地企业,Mainland Enterprises,600536,中国软件,China National Software & Service Co Ltd,SHH
+223,2021-01-26,500,内地企业,Mainland Enterprises,600546,山煤国际,"Shanxi Coal International Energy Group Co., Ltd",SHH
+224,2021-01-26,500,内地企业,Mainland Enterprises,600547,山东黄金,Shandong Gold-Mining Co Ltd,SHH
+225,2021-01-26,500,内地企业,Mainland Enterprises,600570,恒生电子,Hundsun Technologies Inc.,SHH
+226,2021-01-26,500,内地企业,Mainland Enterprises,600585,海螺水泥,Anhui Conch Cement Co Ltd,SHH
+227,2021-01-26,500,内地企业,Mainland Enterprises,600588,用友网络,"Yonyou Network Technology Co., Ltd.",SHH
+228,2021-01-26,500,内地企业,Mainland Enterprises,600600,青岛啤酒,Tsingtao Brewery Co Ltd,SHH
+229,2021-01-26,500,内地企业,Mainland Enterprises,600606,绿地控股,Greenland Holdings Corporation Limited,SHH
+230,2021-01-26,500,内地企业,Mainland Enterprises,600637,东方明珠,"Shanghai Oriental Pearl Media Co., Ltd.",SHH
+231,2021-01-26,500,内地企业,Mainland Enterprises,600660,福耀玻璃,"Fuyao Glass Industry Group Co.,Ltd",SHH
+232,2021-01-26,500,内地企业,Mainland Enterprises,600673,东阳光,"GUANGDONG HEC TECHNOLOGY HOLDING CO., LTD",SHH
+233,2021-01-26,500,内地企业,Mainland Enterprises,600685,中船防务,CSSC OFFSHORE & MARINE ENGINEERING (GROUP) COMPANY LIMITED,SHH
+234,2021-01-26,500,内地企业,Mainland Enterprises,600690,海尔智家,"Haier Smart Home Co., Ltd.",SHH
+235,2021-01-26,500,内地企业,Mainland Enterprises,600699,均胜电子,Ningbo Joyson Electronic Corp.,SHH
+236,2021-01-26,500,内地企业,Mainland Enterprises,600703,三安光电,"Sanan Optoelectronics Co.,Ltd",SHH
+237,2021-01-26,500,内地企业,Mainland Enterprises,600704,物产中大,Zhejiang Material Industrial Zhongda Yuantong Group Co Ltd,SHH
+238,2021-01-26,500,内地企业,Mainland Enterprises,600705,中航资本,"AVIC CAPITAL CO.,LTD.",SHH
+239,2021-01-26,500,内地企业,Mainland Enterprises,600707,彩虹股份,Irico Display Devices Co Ltd,SHH
+240,2021-01-26,500,内地企业,Mainland Enterprises,600732,爱旭股份,"Shanghai Aiko Solar Energy Co., Ltd.",SHH
+241,2021-01-26,500,内地企业,Mainland Enterprises,600739,辽宁成大,Liaoning Cheng Da Co Ltd,SHH
+242,2021-01-26,500,内地企业,Mainland Enterprises,600741,华域汽车,HUAYU Automotive Systems Company Limited,SHH
+243,2021-01-26,500,内地企业,Mainland Enterprises,600745,闻泰科技,"Wingtech Technology Co.,Ltd.",SHH
+244,2021-01-26,500,内地企业,Mainland Enterprises,600760,中航沈飞,AVIC SHENYANG AIRCRAFT COMPANY LIMITED,SHH
+245,2021-01-26,500,内地企业,Mainland Enterprises,600763,通策医疗,TOPCHOICE MEDICAL CORPORATION,SHH
+246,2021-01-26,500,内地企业,Mainland Enterprises,600764,中国海防,China Shipbuilding Industry Group and Marine Defense Information Against Limited,SHH
+247,2021-01-26,500,内地企业,Mainland Enterprises,600801,华新水泥,Huaxin Cement Co Ltd,SHH
+248,2021-01-26,500,内地企业,Mainland Enterprises,600808,马钢股份,Maanshan Iron and Steel Co Ltd,SHH
+249,2021-01-26,500,内地企业,Mainland Enterprises,600809,山西汾酒,Shanxi Xinghuacun Fen Wine Factory Co Ltd,SHH
+250,2021-01-26,500,内地企业,Mainland Enterprises,600820,隧道股份,Shanghai Tunnel Engineering Co Ltd,SHH
+251,2021-01-26,500,内地企业,Mainland Enterprises,600837,海通证券,Haitong Securities Company Limited,SHH
+252,2021-01-26,500,内地企业,Mainland Enterprises,600845,宝信软件,Shanghai Baosight Software Co Ltd,SHH
+253,2021-01-26,500,内地企业,Mainland Enterprises,600848,上海临港,Shanghai Lingang Holdings Corporation Limited,SHH
+254,2021-01-26,500,内地企业,Mainland Enterprises,600862,中航高科,"Avic Aviation High-Technology Co., Ltd.",SHH
+255,2021-01-26,500,内地企业,Mainland Enterprises,600867,通化东宝,"Tonghua Dongbao Pharmaceutical Co.,Ltd.",SHH
+256,2021-01-26,500,内地企业,Mainland Enterprises,600872,中炬高新,"Jonjee Hi-Tech Industrial and Commercial Holding Co.,Ltd.",SHH
+257,2021-01-26,500,内地企业,Mainland Enterprises,600875,东方电气,Dongfang Electric Corporation Limited,SHH
+258,2021-01-26,500,内地企业,Mainland Enterprises,600879,航天电子,"China Aerospace Times Electronics Co.,Ltd.",SHH
+259,2021-01-26,500,内地企业,Mainland Enterprises,600885,宏发股份,"Hongfa Technology Co., Ltd.",SHH
+260,2021-01-26,500,内地企业,Mainland Enterprises,600886,国投电力,"SDIC Power Holdings Co.,Ltd.",SHH
+261,2021-01-26,500,内地企业,Mainland Enterprises,600887,伊利股份,Inner Mongolia Yili Industrial Group Co Ltd,SHH
+262,2021-01-26,500,内地企业,Mainland Enterprises,600893,航发动力,AVIC AVIATION ENGINE CORPORATION PLC.,SHH
+263,2021-01-26,500,内地企业,Mainland Enterprises,600900,长江电力,China Yangtze Power Co Ltd,SHH
+264,2021-01-26,500,内地企业,Mainland Enterprises,600959,江苏有线,Jiangsu Broadcasting Cable Information Network Corporation Limited,SHH
+265,2021-01-26,500,内地企业,Mainland Enterprises,600967,内蒙一机,"Inner Mongolia First Machinery Group Co.,Ltd.",SHH
+266,2021-01-26,500,内地企业,Mainland Enterprises,600977,中国电影,"CHINA FILM CO., LTD.",SHH
+267,2021-01-26,500,内地企业,Mainland Enterprises,600989,宝丰能源,"Ningxia Baofeng Energy Group Co., Ltd.",SHH
+268,2021-01-26,500,内地企业,Mainland Enterprises,600998,九州通,Jointown Pharmaceutical Group Co Ltd,SHH
+269,2021-01-26,500,内地企业,Mainland Enterprises,600999,招商证券,China Merchants Securities Co Ltd,SHH
+270,2021-01-26,500,内地企业,Mainland Enterprises,601006,大秦铁路,Daqin Railway Co Ltd,SHH
+271,2021-01-26,500,内地企业,Mainland Enterprises,601012,隆基股份,"Longi Green Energy Technology Co., Ltd.",SHH
+272,2021-01-26,500,内地企业,Mainland Enterprises,601066,中信建投,"China Securities Co., Ltd.",SHH
+273,2021-01-26,500,内地企业,Mainland Enterprises,601088,中国神华,China Shenhua Energy Co Ltd,SHH
+274,2021-01-26,500,内地企业,Mainland Enterprises,601098,中南传媒,China South Publishing & Media Group Co Ltd,SHH
+275,2021-01-26,500,内地企业,Mainland Enterprises,601100,恒立液压,"Jiangsu Hengli Hydraulic CO., Ltd.",SHH
+276,2021-01-26,500,内地企业,Mainland Enterprises,601106,中国一重,China First Heavy Industries Co Ltd,SHH
+277,2021-01-26,500,内地企业,Mainland Enterprises,601111,中国国航,Air China Ltd,SHH
+278,2021-01-26,500,内地企业,Mainland Enterprises,601117,中国化学,China National Chemical Engineering Co Ltd,SHH
+279,2021-01-26,500,内地企业,Mainland Enterprises,601118,海南橡胶,China Hainan Rubber Industry Group Co Ltd,SHH
+280,2021-01-26,500,内地企业,Mainland Enterprises,601138,工业富联,"Foxconn Industrial Internet Co., Ltd.",SHH
+281,2021-01-26,500,内地企业,Mainland Enterprises,601155,新城控股,"Future Land Holdings Co., Ltd.",SHH
+282,2021-01-26,500,内地企业,Mainland Enterprises,601166,兴业银行,Industrial Bank,SHH
+283,2021-01-26,500,内地企业,Mainland Enterprises,601179,中国西电,China XD Electric Co Ltd,SHH
+284,2021-01-26,500,内地企业,Mainland Enterprises,601186,中国铁建,China Railway Construction Co Ltd,SHH
+285,2021-01-26,500,内地企业,Mainland Enterprises,601211,国泰君安,"Guotai Junan Securities Co., Ltd.",SHH
+286,2021-01-26,500,内地企业,Mainland Enterprises,601212,白银有色,"Baiyin Nonferrous Group Co., Ltd.",SHH
+287,2021-01-26,500,内地企业,Mainland Enterprises,601216,君正集团,"Inner Mongolia Junzheng Energy & Chemical Group Co.,Ltd.",SHH
+288,2021-01-26,500,内地企业,Mainland Enterprises,601225,陕西煤业,Shaanxi Coal Industry Company Limited,SHH
+289,2021-01-26,500,内地企业,Mainland Enterprises,601231,环旭电子,"Universal Scientific Industrial (Shanghai) Co.,Ltd.",SHH
+290,2021-01-26,500,内地企业,Mainland Enterprises,601233,桐昆股份,Tongkun Group Co Ltd,SHH
+291,2021-01-26,500,内地企业,Mainland Enterprises,601238,广汽集团,"Guangzhou Automobile Group Co., Ltd.",SHH
+292,2021-01-26,500,内地企业,Mainland Enterprises,601288,农业银行,Agricultural Bank of China Co Ltd,SHH
+293,2021-01-26,500,内地企业,Mainland Enterprises,601318,中国平安,Ping An Insurance (Group) Company of China Ltd,SHH
+294,2021-01-26,500,内地企业,Mainland Enterprises,601360,三六零,360 Security Technology Inc.,SHH
+295,2021-01-26,500,内地企业,Mainland Enterprises,601390,中国中铁,China Railway Group Limited,SHH
+296,2021-01-26,500,内地企业,Mainland Enterprises,601398,工商银行,Industrial and Commercial Bank of China Ltd,SHH
+297,2021-01-26,500,内地企业,Mainland Enterprises,601600,中国铝业,Aluminum Corporation of China Limited,SHH
+298,2021-01-26,500,内地企业,Mainland Enterprises,601607,上海医药,"Shanghai Pharmaceuticals Holding Co.,Ltd",SHH
+299,2021-01-26,500,内地企业,Mainland Enterprises,601608,中信重工,"CITIC HEAVY INDUSTRIES CO., LTD.",SHH
+300,2021-01-26,500,内地企业,Mainland Enterprises,601611,中国核建,China Nuclear Engineering Corporation Limited,SHH
+301,2021-01-26,500,内地企业,Mainland Enterprises,601615,明阳智能,MingYangSmartEnergyGroupLimited,SHH
+302,2021-01-26,500,内地企业,Mainland Enterprises,601618,中国中冶,Metallurgical Corporation of China Co Ltd,SHH
+303,2021-01-26,500,内地企业,Mainland Enterprises,601628,中国人寿,China Life Insurance Company Limited,SHH
+304,2021-01-26,500,内地企业,Mainland Enterprises,601633,长城汽车,Great Wall Motor Co Ltd,SHH
+305,2021-01-26,500,内地企业,Mainland Enterprises,601658,邮储银行,"POSTAL SAVINGS BANK OF CHINA CO., LTD.",SHH
+306,2021-01-26,500,内地企业,Mainland Enterprises,601668,中国建筑,China State Construction Engineering Co Ltd,SHH
+307,2021-01-26,500,内地企业,Mainland Enterprises,601669,中国电建,"Power Construction Corporation of China,Ltd",SHH
+308,2021-01-26,500,内地企业,Mainland Enterprises,601688,华泰证券,Huatai Securities Co Ltd,SHH
+309,2021-01-26,500,内地企业,Mainland Enterprises,601689,拓普集团,"Ningbo Tuopu Group Co., Ltd.",SHH
+310,2021-01-26,500,内地企业,Mainland Enterprises,601718,际华集团,Jihua Group Co Ltd,SHH
+311,2021-01-26,500,内地企业,Mainland Enterprises,601727,上海电气,Shanghai Electric Group Co Ltd,SHH
+312,2021-01-26,500,内地企业,Mainland Enterprises,601766,中国中车,CRRC Corporation Limited,SHH
+313,2021-01-26,500,内地企业,Mainland Enterprises,601799,星宇股份,Changzhou Xingyu Automotive Lighting Systems Co Ltd,SHH
+314,2021-01-26,500,内地企业,Mainland Enterprises,601800,中国交建,China Communications Construction Company Limited,SHH
+315,2021-01-26,500,内地企业,Mainland Enterprises,601808,中海油服,China Oilfield Services Limited,SHH
+316,2021-01-26,500,内地企业,Mainland Enterprises,601816,京沪高铁,"Beijing-Shanghai High Speed Railway Co.,Ltd",SHH
+317,2021-01-26,500,内地企业,Mainland Enterprises,601828,美凯龙,Red Star Macalline Group Corporation Ltd.,SHH
+318,2021-01-26,500,内地企业,Mainland Enterprises,601857,中国石油,PetroChina Co Ltd,SHH
+319,2021-01-26,500,内地企业,Mainland Enterprises,601865,福莱特,"Flat Glass Group CO.,LTD.",SHH
+320,2021-01-26,500,内地企业,Mainland Enterprises,601877,正泰电器,Zhejiang Chint Electrics Co Ltd,SHH
+321,2021-01-26,500,内地企业,Mainland Enterprises,601888,中国中免,China Tourism Group Duty Free Corporation Limited,SHH
+322,2021-01-26,500,内地企业,Mainland Enterprises,601898,中煤能源,China Coal Energy Co Ltd,SHH
+323,2021-01-26,500,内地企业,Mainland Enterprises,601899,紫金矿业,Zijin Mining Group Co Ltd,SHH
+324,2021-01-26,500,内地企业,Mainland Enterprises,601919,中远海控,"COSCO SHIPPING Holdings Co., Ltd.",SHH
+325,2021-01-26,500,内地企业,Mainland Enterprises,601928,凤凰传媒,Jiangsu Phoenix Publishing & Media Co Ltd,SHH
+326,2021-01-26,500,内地企业,Mainland Enterprises,601933,永辉超市,Yonghui Superstores Co Ltd,SHH
+327,2021-01-26,500,内地企业,Mainland Enterprises,601939,建设银行,China Construction Bank,SHH
+328,2021-01-26,500,内地企业,Mainland Enterprises,601958,金钼股份,Jinduicheng Molybdenum Co Ltd,SHH
+329,2021-01-26,500,内地企业,Mainland Enterprises,601966,玲珑轮胎,"Shandong Linglong Tyre Co., Ltd.",SHH
+330,2021-01-26,500,内地企业,Mainland Enterprises,601985,中国核电,"China National Nuclear Power Co.,Ltd.",SHH
+331,2021-01-26,500,内地企业,Mainland Enterprises,601988,中国银行,Bank of China Ltd,SHH
+332,2021-01-26,500,内地企业,Mainland Enterprises,601989,中国重工,China Shipbuilding Industry Co Ltd,SHH
+333,2021-01-26,500,内地企业,Mainland Enterprises,601992,金隅集团,BBMG Corporation,SHH
+334,2021-01-26,500,内地企业,Mainland Enterprises,603000,人民网,"People.cn CO.,LTD",SHH
+335,2021-01-26,500,内地企业,Mainland Enterprises,603019,中科曙光,"Dawning Information Industry Co., Ltd.",SHH
+336,2021-01-26,500,内地企业,Mainland Enterprises,603087,甘李药业,Gan & Lee Pharmaceuticals,SHH
+337,2021-01-26,500,内地企业,Mainland Enterprises,603160,汇顶科技,"Shenzhen Huiding Technology Co., Ltd.",SHH
+338,2021-01-26,500,内地企业,Mainland Enterprises,603195,公牛集团,"GONGNIU GROUP CO., LTD.",SHH
+339,2021-01-26,500,内地企业,Mainland Enterprises,603228,景旺电子,"Shenzhen Kinwong Electronic Co.,Ltd.",SHH
+340,2021-01-26,500,内地企业,Mainland Enterprises,603233,大参林,"DaShenLin Pharmaceutical Group Co., Ltd.",SHH
+341,2021-01-26,500,内地企业,Mainland Enterprises,603259,药明康德,"WuXi AppTec Co., Ltd.",SHH
+342,2021-01-26,500,内地企业,Mainland Enterprises,603260,合盛硅业,"HOSHINE SILICON INDUSTRY CO.,LTD",SHH
+343,2021-01-26,500,内地企业,Mainland Enterprises,603288,海天味业,Foshan Haitian Flavouring and Food Company Ltd.,SHH
+344,2021-01-26,500,内地企业,Mainland Enterprises,603338,浙江鼎力,"Zhejiang Dingli Machinery Co.,Ltd.",SHH
+345,2021-01-26,500,内地企业,Mainland Enterprises,603369,今世缘,"Jiangsu King's Luck Brewery Joint-Stock Co., Ltd.",SHH
+346,2021-01-26,500,内地企业,Mainland Enterprises,603392,万泰生物,"BEIJING WANTAI BIOLOGICAL PHARMACY ENTERPRISE CO., LTD.",SHH
+347,2021-01-26,500,内地企业,Mainland Enterprises,603444,吉比特,"G-bits Network Technology(Xiamen)Co., Ltd.",SHH
+348,2021-01-26,500,内地企业,Mainland Enterprises,603501,韦尔股份,"Will Semiconductor CO.,Ltd. Shanghai",SHH
+349,2021-01-26,500,内地企业,Mainland Enterprises,603515,欧普照明,"Opple Lighting Co., LTD.",SHH
+350,2021-01-26,500,内地企业,Mainland Enterprises,603568,伟明环保,"ZHEJIANG WEIMING ENVIRONMENT PROTECTION CO., LTD.",SHH
+351,2021-01-26,500,内地企业,Mainland Enterprises,603638,艾迪精密,"Yantai Eddie Precision Machinery Co., Ltd.",SHH
+352,2021-01-26,500,内地企业,Mainland Enterprises,603658,安图生物,"Autobio Diagnostics Co., Ltd.",SHH
+353,2021-01-26,500,内地企业,Mainland Enterprises,603659,璞泰来,"Shanghai Putailai New Energy Technology Co., Ltd.",SHH
+354,2021-01-26,500,内地企业,Mainland Enterprises,603737,三棵树,"SKSHU Paint Co., Ltd.",SHH
+355,2021-01-26,500,内地企业,Mainland Enterprises,603786,科博达,"KEBODA TECHNOLOGY Co., Ltd.",SHH
+356,2021-01-26,500,内地企业,Mainland Enterprises,603799,华友钴业,"ZHEJIANG HUAYOU COBALT CO., LTD.",SHH
+357,2021-01-26,500,内地企业,Mainland Enterprises,603806,福斯特,"HANGZHOU FIRST PV MATERIAL Co., LTD.",SHH
+358,2021-01-26,500,内地企业,Mainland Enterprises,603816,顾家家居,"Jason Furniture (Hangzhou) Co.,Ltd.",SHH
+359,2021-01-26,500,内地企业,Mainland Enterprises,603833,欧派家居,Oppein Home Group Inc.,SHH
+360,2021-01-26,500,内地企业,Mainland Enterprises,603899,晨光文具,SHANGHAI M&G STATIONERY INC.,SHH
+361,2021-01-26,500,内地企业,Mainland Enterprises,603927,中科软,"Sinosoft Co.,Ltd",SHH
+362,2021-01-26,500,内地企业,Mainland Enterprises,603939,益丰药房,"Yifeng Pharmacy Chain Co., Ltd.",SHH
+363,2021-01-26,500,内地企业,Mainland Enterprises,603983,丸美股份,"Guangdong Marubi Biotechnology Co., Ltd.",SHH
+364,2021-01-26,500,内地企业,Mainland Enterprises,603986,兆易创新,GigaDevice Semiconductor (Beijing) Inc.,SHH
+365,2021-01-26,500,内地企业,Mainland Enterprises,603993,洛阳钼业,"China Molybdenum Co., Ltd.",SHH
+366,2021-01-26,500,内地企业,Mainland Enterprises,688002,睿创微纳,"Raytron Technology Co.,Ltd",SHH
+367,2021-01-26,500,内地企业,Mainland Enterprises,688006,杭可科技,Zhejiang HangKe Technology Incorporated Company,SHH
+368,2021-01-26,500,内地企业,Mainland Enterprises,688008,澜起科技,"Montage Technology Co., Ltd.",SHH
+369,2021-01-26,500,内地企业,Mainland Enterprises,688009,中国通号,China Railway Signal & Communication Corporation Limited,SHH
+370,2021-01-26,500,内地企业,Mainland Enterprises,688036,传音控股,"SHENZHEN TRANSSION HOLDINGS CO., LTD.",SHH
+371,2021-01-26,500,内地企业,Mainland Enterprises,000002,万科A,China Vanke Co Ltd,SHZ
+372,2021-01-26,500,内地企业,Mainland Enterprises,000009,中国宝安,"China Baoan Group Co.,Ltd.",SHZ
+373,2021-01-26,500,内地企业,Mainland Enterprises,000021,深科技,"Shenzhen Kaifa Technology Co., Ltd.",SHZ
+374,2021-01-26,500,内地企业,Mainland Enterprises,000039,中集集团,China International Marine Containers (Group) Co Ltd,SHZ
+375,2021-01-26,500,内地企业,Mainland Enterprises,000050,深天马A,Tianma Microelectronics Co Ltd,SHZ
+376,2021-01-26,500,内地企业,Mainland Enterprises,000063,中兴通讯,ZTE Corporation,SHZ
+377,2021-01-26,500,内地企业,Mainland Enterprises,000066,中国长城,"CHINA GREATWALL TECHNOLOGY GROUP CO., LTD.",SHZ
+378,2021-01-26,500,内地企业,Mainland Enterprises,000069,华侨城A,Shenzhen Overseas Chinese Town Co Ltd,SHZ
+379,2021-01-26,500,内地企业,Mainland Enterprises,000100,TCL科技,TCL Technology Group Corporation,SHZ
+380,2021-01-26,500,内地企业,Mainland Enterprises,000157,中联重科,Zoomlion Heavy Industry Science & Technology Co Ltd,SHZ
+381,2021-01-26,500,内地企业,Mainland Enterprises,000166,申万宏源,"Shenwan Hongyuan Group CO., LTD",SHZ
+382,2021-01-26,500,内地企业,Mainland Enterprises,000301,东方盛虹,"Jiangsu Eastern Shenghong Co.,Ltd.",SHZ
+383,2021-01-26,500,内地企业,Mainland Enterprises,000333,美的集团,"Midea Group CO., LTD",SHZ
+384,2021-01-26,500,内地企业,Mainland Enterprises,000338,潍柴动力,Wei Chai Power Co Ltd,SHZ
+385,2021-01-26,500,内地企业,Mainland Enterprises,000401,冀东水泥,Tangshan Jidong Cement Co Ltd,SHZ
+386,2021-01-26,500,内地企业,Mainland Enterprises,000415,渤海租赁,"Bohai Leasing Co.,Ltd.",SHZ
+387,2021-01-26,500,内地企业,Mainland Enterprises,000425,徐工机械,XCMG Construction Machinery Co Ltd,SHZ
+388,2021-01-26,500,内地企业,Mainland Enterprises,000538,云南白药,"Yunnan Baiyao Group Co., Ltd.",SHZ
+389,2021-01-26,500,内地企业,Mainland Enterprises,000547,航天发展,"Addsino Co., Ltd",SHZ
+390,2021-01-26,500,内地企业,Mainland Enterprises,000553,安道麦A,ADAMA Ltd.,SHZ
+391,2021-01-26,500,内地企业,Mainland Enterprises,000568,泸州老窖,Luzhou Lao Jiao Co Ltd,SHZ
+392,2021-01-26,500,内地企业,Mainland Enterprises,000596,古井贡酒,Anhui Gujing Distillery Co Ltd,SHZ
+393,2021-01-26,500,内地企业,Mainland Enterprises,000625,长安汽车,Chongqing Changan Automobile Co Ltd,SHZ
+394,2021-01-26,500,内地企业,Mainland Enterprises,000629,攀钢钒钛,"Pangang Group Vanadium Titanium & Resources Co., Ltd.",SHZ
+395,2021-01-26,500,内地企业,Mainland Enterprises,000630,铜陵有色,Tongling Nonferrous Metals Group Co. Ltd,SHZ
+396,2021-01-26,500,内地企业,Mainland Enterprises,000636,风华高科,Guangdong Fenghua Advanced Technology (Holding) Co Ltd,SHZ
+397,2021-01-26,500,内地企业,Mainland Enterprises,000651,格力电器,"Gree Electric Appliances,Inc. of Zhuhai",SHZ
+398,2021-01-26,500,内地企业,Mainland Enterprises,000661,长春高新,Chang Chun High and New Technology Industry (Group) Inc.,SHZ
+399,2021-01-26,500,内地企业,Mainland Enterprises,000703,恒逸石化,Hengyi Petrochemical Co Ltd,SHZ
+400,2021-01-26,500,内地企业,Mainland Enterprises,000708,中信特钢,"CITIC Pacific Special Steel Group Co., Ltd",SHZ
+401,2021-01-26,500,内地企业,Mainland Enterprises,000709,河钢股份,HESTEEL COMPANY LIMITED,SHZ
+402,2021-01-26,500,内地企业,Mainland Enterprises,000725,京东方A,BOE Technology Group Co Ltd,SHZ
+403,2021-01-26,500,内地企业,Mainland Enterprises,000738,航发控制,"AECC AERO-ENGINE CONTROL CO.,LTD.",SHZ
+404,2021-01-26,500,内地企业,Mainland Enterprises,000768,中航西飞,AVIC XI'AN AIRCRAFT INDUSTRY GROUP COMPANY LTD.,SHZ
+405,2021-01-26,500,内地企业,Mainland Enterprises,000776,广发证券,"GF Securities Co., Ltd.",SHZ
+406,2021-01-26,500,内地企业,Mainland Enterprises,000786,北新建材,Beijing New Building Materials Public Ltd Co,SHZ
+407,2021-01-26,500,内地企业,Mainland Enterprises,000800,一汽解放,"FAW Jiefang Group Co., Ltd",SHZ
+408,2021-01-26,500,内地企业,Mainland Enterprises,000825,太钢不锈,Shanxi Taigang Stainless Steel Co Ltd,SHZ
+409,2021-01-26,500,内地企业,Mainland Enterprises,000858,五 粮 液,Wuliangye Yibin Co Ltd,SHZ
+410,2021-01-26,500,内地企业,Mainland Enterprises,000860,顺鑫农业,Beijing Shunxin Agriculture Co Ltd,SHZ
+411,2021-01-26,500,内地企业,Mainland Enterprises,000876,新 希 望,"NEW HOPE LIUHE CO., LTD",SHZ
+412,2021-01-26,500,内地企业,Mainland Enterprises,000878,云南铜业,Yunnan Copper Co Ltd,SHZ
+413,2021-01-26,500,内地企业,Mainland Enterprises,000895,双汇发展,Henan Shuanghui Investment & Development Co Ltd,SHZ
+414,2021-01-26,500,内地企业,Mainland Enterprises,000898,鞍钢股份,Angang Steel Co Ltd,SHZ
+415,2021-01-26,500,内地企业,Mainland Enterprises,000932,华菱钢铁,Hunan Valin Steel Co Ltd,SHZ
+416,2021-01-26,500,内地企业,Mainland Enterprises,000938,紫光股份,"Unisplendour Co., Ltd.",SHZ
+417,2021-01-26,500,内地企业,Mainland Enterprises,000963,华东医药,Huadong Medicine Co Ltd,SHZ
+418,2021-01-26,500,内地企业,Mainland Enterprises,000967,盈峰环境,Infore Environment Technology Group Co. Ltd.,SHZ
+419,2021-01-26,500,内地企业,Mainland Enterprises,000975,银泰黄金,"Yintai Gold Co.,Ltd.",SHZ
+420,2021-01-26,500,内地企业,Mainland Enterprises,000977,浪潮信息,"Inspur Electronic Information Industry Co.,Ltd",SHZ
+421,2021-01-26,500,内地企业,Mainland Enterprises,000988,华工科技,Huagong Tech Co Ltd,SHZ
+422,2021-01-26,500,内地企业,Mainland Enterprises,000999,华润三九,China Resources Sanjiu Medical & Pharmaceutical Co Ltd,SHZ
+423,2021-01-26,500,内地企业,Mainland Enterprises,001979,招商蛇口,"CHINA MERCHANTS SHEKOU INDUSTRIAL ZONE HOLDINGS CO.,LTD",SHZ
+424,2021-01-26,500,内地企业,Mainland Enterprises,002001,新和成,Zhejiang NHU Co Ltd,SHZ
+425,2021-01-26,500,内地企业,Mainland Enterprises,002007,华兰生物,Hualan Biological Engineering INC,SHZ
+426,2021-01-26,500,内地企业,Mainland Enterprises,002008,大族激光,"Han's Laser Technology Industry Group Co., Ltd.",SHZ
+427,2021-01-26,500,内地企业,Mainland Enterprises,002013,中航机电,"AVIC Electromechanical Systems Co., Ltd.",SHZ
+428,2021-01-26,500,内地企业,Mainland Enterprises,002024,苏宁易购,"SUNING.COM CO.,LTD.",SHZ
+429,2021-01-26,500,内地企业,Mainland Enterprises,002027,分众传媒,"Focus Media Information Technology Co., Ltd.",SHZ
+430,2021-01-26,500,内地企业,Mainland Enterprises,002032,苏泊尔,"Zhejiang Supor Co.,Ltd",SHZ
+431,2021-01-26,500,内地企业,Mainland Enterprises,002044,美年健康,"Meinian Onehealth Healthcare Holdings Co., Ltd.",SHZ
+432,2021-01-26,500,内地企业,Mainland Enterprises,002050,三花智控,"ZHEJIANG SANHUA INTELLIGENT CONTROLS CO.,LTD.",SHZ
+433,2021-01-26,500,内地企业,Mainland Enterprises,002064,华峰化学,"Huafon Chemical Co., Ltd.",SHZ
+434,2021-01-26,500,内地企业,Mainland Enterprises,002065,东华软件,"DHC Software Co.,Ltd.",SHZ
+435,2021-01-26,500,内地企业,Mainland Enterprises,002074,国轩高科,"GUOXUAN HIGH-TECH CO.,LTD.",SHZ
+436,2021-01-26,500,内地企业,Mainland Enterprises,002075,沙钢股份,Jiangsu Shagang Co Ltd,SHZ
+437,2021-01-26,500,内地企业,Mainland Enterprises,002078,太阳纸业,Shan Dong Sun Paper Industry Joint Stock Co Ltd,SHZ
+438,2021-01-26,500,内地企业,Mainland Enterprises,002080,中材科技,Sinoma Science & Technology Co Ltd,SHZ
+439,2021-01-26,500,内地企业,Mainland Enterprises,002081,金螳螂,Suzhou Gold Mantis Construction Decoration Co Ltd,SHZ
+440,2021-01-26,500,内地企业,Mainland Enterprises,002120,韵达股份,"YUNDA Holding CO., Ltd.",SHZ
+441,2021-01-26,500,内地企业,Mainland Enterprises,002127,南极电商,"NanJi E-Commerce Co., LTD",SHZ
+442,2021-01-26,500,内地企业,Mainland Enterprises,002129,中环股份,"Tianjin Zhonghuan Semiconductor Co., Ltd.",SHZ
+443,2021-01-26,500,内地企业,Mainland Enterprises,002138,顺络电子,Shenzhen Sunlord Electronics Co Ltd,SHZ
+444,2021-01-26,500,内地企业,Mainland Enterprises,002152,广电运通,GRG Banking Equipment Co Ltd,SHZ
+445,2021-01-26,500,内地企业,Mainland Enterprises,002153,石基信息,Beijing Shiji Information Technology Co Ltd,SHZ
+446,2021-01-26,500,内地企业,Mainland Enterprises,002157,正邦科技,Jiangxi Zhengbang Technology Co Ltd,SHZ
+447,2021-01-26,500,内地企业,Mainland Enterprises,002179,中航光电,"AVIC Jonhon Optronic Technology Co.,Ltd.",SHZ
+448,2021-01-26,500,内地企业,Mainland Enterprises,002180,纳思达,Ninestar Corporation,SHZ
+449,2021-01-26,500,内地企业,Mainland Enterprises,002191,劲嘉股份,"SHENZHEN JINJIA GROUP CO.,LTD.",SHZ
+450,2021-01-26,500,内地企业,Mainland Enterprises,002202,金风科技,Xinjiang Goldwind Science & Technology Co Ltd,SHZ
+451,2021-01-26,500,内地企业,Mainland Enterprises,002212,天融信,Topsec Technologies Group Inc.,SHZ
+452,2021-01-26,500,内地企业,Mainland Enterprises,002230,科大讯飞,"Iflytek Co.,Ltd.",SHZ
+453,2021-01-26,500,内地企业,Mainland Enterprises,002236,大华股份,Zhejiang Dahua Technology Co Ltd,SHZ
+454,2021-01-26,500,内地企业,Mainland Enterprises,002241,歌尔股份,GoerTek Inc,SHZ
+455,2021-01-26,500,内地企业,Mainland Enterprises,002242,九阳股份,Joyoung Co Ltd,SHZ
+456,2021-01-26,500,内地企业,Mainland Enterprises,002252,上海莱士,Shanghai RAAS Blood Products Co Ltd,SHZ
+457,2021-01-26,500,内地企业,Mainland Enterprises,002268,卫士通,Westone Information Industry Inc,SHZ
+458,2021-01-26,500,内地企业,Mainland Enterprises,002271,东方雨虹,Beijing Oriental Yuhong Waterproof Technology Co Ltd,SHZ
+459,2021-01-26,500,内地企业,Mainland Enterprises,002304,洋河股份,Jiangsu Yanghe Brewery Joint-Stock Co Ltd,SHZ
+460,2021-01-26,500,内地企业,Mainland Enterprises,002311,海大集团,Guangdong Haid Group Co Ltd,SHZ
+461,2021-01-26,500,内地企业,Mainland Enterprises,002340,格林美,Shenzhen Green Eco-manufacture Hi-tech Co Ltd,SHZ
+462,2021-01-26,500,内地企业,Mainland Enterprises,002352,顺丰控股,"S.F. Holding Co., Ltd.",SHZ
+463,2021-01-26,500,内地企业,Mainland Enterprises,002371,北方华创,"NAURA Technology Group Co.,Ltd.",SHZ
+464,2021-01-26,500,内地企业,Mainland Enterprises,002372,伟星新材,Zhejiang Weixing New Building Materials Co Ltd,SHZ
+465,2021-01-26,500,内地企业,Mainland Enterprises,002373,千方科技,Surekam Corporation,SHZ
+466,2021-01-26,500,内地企业,Mainland Enterprises,002384,东山精密,Suzhou Dongshan Precision Manufacturing Co Ltd,SHZ
+467,2021-01-26,500,内地企业,Mainland Enterprises,002387,维信诺,Visionox Technology Inc.,SHZ
+468,2021-01-26,500,内地企业,Mainland Enterprises,002399,海普瑞,Shenzhen Hepalink Pharmaceutical Co Ltd,SHZ
+469,2021-01-26,500,内地企业,Mainland Enterprises,002405,四维图新,NavInfo Co Ltd,SHZ
+470,2021-01-26,500,内地企业,Mainland Enterprises,002410,广联达,Glodon Software Co Ltd,SHZ
+471,2021-01-26,500,内地企业,Mainland Enterprises,002414,高德红外,Wuhan Guide Infrared Co Ltd,SHZ
+472,2021-01-26,500,内地企业,Mainland Enterprises,002415,海康威视,Hangzhou Hikvision Digital Technology Co Ltd,SHZ
+473,2021-01-26,500,内地企业,Mainland Enterprises,002422,科伦药业,Sichuan Kelun Pharmaceutical Co Ltd,SHZ
+474,2021-01-26,500,内地企业,Mainland Enterprises,002439,启明星辰,Beijing Venustech Inc.,SHZ
+475,2021-01-26,500,内地企业,Mainland Enterprises,002456,欧菲光,"OFILM Group Co., Ltd.",SHZ
+476,2021-01-26,500,内地企业,Mainland Enterprises,002459,晶澳科技,"JA Solar Technology Co., Ltd.",SHZ
+477,2021-01-26,500,内地企业,Mainland Enterprises,002460,赣锋锂业,Ganfeng Lithium Co Ltd,SHZ
+478,2021-01-26,500,内地企业,Mainland Enterprises,002463,沪电股份,Wus Printed Circuit (Kunshan) Co Ltd,SHZ
+479,2021-01-26,500,内地企业,Mainland Enterprises,002465,海格通信,Guangzhou Haige Communications Group Incorporated Company,SHZ
+480,2021-01-26,500,内地企业,Mainland Enterprises,002466,天齐锂业,"Tianqi Lithium Industries, Inc.",SHZ
+481,2021-01-26,500,内地企业,Mainland Enterprises,002475,立讯精密,"Luxshare Precision Industry Co., Ltd.",SHZ
+482,2021-01-26,500,内地企业,Mainland Enterprises,002493,荣盛石化,Rongsheng Petro Chemical Co Ltd,SHZ
+483,2021-01-26,500,内地企业,Mainland Enterprises,002506,协鑫集成,"GCL System Integration Technology Co., Ltd.",SHZ
+484,2021-01-26,500,内地企业,Mainland Enterprises,002508,老板电器,Hangzhou Robam Appliances Co Ltd,SHZ
+485,2021-01-26,500,内地企业,Mainland Enterprises,002555,三七互娱,"WUHU SANQI INTERACTIVE ENTERTAINMENT NETWORK TECHNOLOGY GROUP CO.,LTD.",SHZ
+486,2021-01-26,500,内地企业,Mainland Enterprises,002558,巨人网络,"Giant Network Group Co., Ltd.",SHZ
+487,2021-01-26,500,内地企业,Mainland Enterprises,002563,森马服饰,Zhejiang Semir Garment Co Ltd,SHZ
+488,2021-01-26,500,内地企业,Mainland Enterprises,002572,索菲亚,Suofeiya Home Collection Co Ltd,SHZ
+489,2021-01-26,500,内地企业,Mainland Enterprises,002594,比亚迪,BYD Co Ltd,SHZ
+490,2021-01-26,500,内地企业,Mainland Enterprises,002600,领益智造,LINGYI iTECH (GUANGDONG) COMPANY,SHZ
+491,2021-01-26,500,内地企业,Mainland Enterprises,002601,龙蟒佰利,"Lomon Billions Group Co., Ltd.",SHZ
+492,2021-01-26,500,内地企业,Mainland Enterprises,002602,世纪华通,"ZHEJIANG CENTURY HUATONG GROUP CO., LTD",SHZ
+493,2021-01-26,500,内地企业,Mainland Enterprises,002607,中公教育,"Offcn Education Technology Co., Ltd.",SHZ
+494,2021-01-26,500,内地企业,Mainland Enterprises,002624,完美世界,"Perfect World Co., Ltd.",SHZ
+495,2021-01-26,500,内地企业,Mainland Enterprises,002625,光启技术,"Kuang-Chi Technologies Co., Ltd.",SHZ
+496,2021-01-26,500,内地企业,Mainland Enterprises,002683,宏大爆破,"Guangdong HongDa Blasting Co.,Ltd.",SHZ
+497,2021-01-26,500,内地企业,Mainland Enterprises,002690,美亚光电,Hefei Meiya Optoelectronic Technology Inc.,SHZ
+498,2021-01-26,500,内地企业,Mainland Enterprises,002705,新宝股份,"Guangdong Xinbao Electrical Appliances Holdings Co., Ltd",SHZ
+499,2021-01-26,500,内地企业,Mainland Enterprises,002714,牧原股份,"Muyuan Foodstuff Co., Ltd",SHZ
+500,2021-01-26,500,内地企业,Mainland Enterprises,002736,国信证券,"GUOSEN SECURITIES CO., LTD.",SHZ
+501,2021-01-26,500,内地企业,Mainland Enterprises,002739,万达电影,"WANDA FILM HOLDING CO., LTD",SHZ
+502,2021-01-26,500,内地企业,Mainland Enterprises,002773,康弘药业,"Chengdu Kanghong Pharmaceutical Group Co., Ltd",SHZ
+503,2021-01-26,500,内地企业,Mainland Enterprises,002791,坚朗五金,"Guangdong KinLong Hardware Products Co.,Ltd.",SHZ
+504,2021-01-26,500,内地企业,Mainland Enterprises,002812,恩捷股份,"Yunnan Energy New Material Co., Ltd.",SHZ
+505,2021-01-26,500,内地企业,Mainland Enterprises,002821,凯莱英,"Asymchem Laboratories (Tianjin) Co., Ltd.",SHZ
+506,2021-01-26,500,内地企业,Mainland Enterprises,002831,裕同科技,"ShenZhen YUTO Packaging Technology Co., Ltd.",SHZ
+507,2021-01-26,500,内地企业,Mainland Enterprises,002841,视源股份,Guangzhou Shiyuan Electronic Technology Company Limited,SHZ
+508,2021-01-26,500,内地企业,Mainland Enterprises,002916,深南电路,"Shennan Circuits Co., Ltd.",SHZ
+509,2021-01-26,500,内地企业,Mainland Enterprises,002925,盈趣科技,Xiamen Intretech Inc.,SHZ
+510,2021-01-26,500,内地企业,Mainland Enterprises,002938,鹏鼎控股,"Avary Holding (Shenzhen) Co., Limited",SHZ
+511,2021-01-26,500,内地企业,Mainland Enterprises,002985,北摩高科,"BEIJING BEI MO GAO KE FRICTION MATERIAL CO., LTD.",SHZ
+512,2021-01-26,500,内地企业,Mainland Enterprises,003816,中国广核,"CGN Power Co., Ltd.",SHZ
+513,2021-01-26,500,内地企业,Mainland Enterprises,300001,特锐德,Qingdao TGOOD Electric Co Ltd,SHZ
+514,2021-01-26,500,内地企业,Mainland Enterprises,300003,乐普医疗,Lepu Medical Technology (Beijing) Co Ltd,SHZ
+515,2021-01-26,500,内地企业,Mainland Enterprises,300012,华测检测,"CENTRE TESTING INTERNATIONAL GROUP CO., LTD.",SHZ
+516,2021-01-26,500,内地企业,Mainland Enterprises,300014,亿纬锂能,Eve Energy Co Ltd,SHZ
+517,2021-01-26,500,内地企业,Mainland Enterprises,300015,爱尔眼科,Aier Eye Hospital Group Co Ltd,SHZ
+518,2021-01-26,500,内地企业,Mainland Enterprises,300017,网宿科技,"Wangsu Science and Technology Co.,Ltd.",SHZ
+519,2021-01-26,500,内地企业,Mainland Enterprises,300024,机器人,Siasun Robot & Automation Co Ltd,SHZ
+520,2021-01-26,500,内地企业,Mainland Enterprises,300059,东方财富,East Money Information Co Ltd,SHZ
+521,2021-01-26,500,内地企业,Mainland Enterprises,300070,碧水源,Beijing Originwater Technology Co Ltd,SHZ
+522,2021-01-26,500,内地企业,Mainland Enterprises,300088,长信科技,Wuhu Token Science Co Ltd,SHZ
+523,2021-01-26,500,内地企业,Mainland Enterprises,300122,智飞生物,Chongqing Zhifei Biological Products Co Ltd,SHZ
+524,2021-01-26,500,内地企业,Mainland Enterprises,300124,汇川技术,Shenzhen Inovance Technology Co Ltd,SHZ
+525,2021-01-26,500,内地企业,Mainland Enterprises,300136,信维通信,Shenzhen Sunway Communication Co Ltd,SHZ
+526,2021-01-26,500,内地企业,Mainland Enterprises,300142,沃森生物,Walvax Biotechnology Co Ltd,SHZ
+527,2021-01-26,500,内地企业,Mainland Enterprises,300207,欣旺达,Sunwoda Electronic Co Ltd,SHZ
+528,2021-01-26,500,内地企业,Mainland Enterprises,300251,光线传媒,Beijing Enlight Media Co Ltd,SHZ
+529,2021-01-26,500,内地企业,Mainland Enterprises,300274,阳光电源,Sungrow Power Supply Co Ltd,SHZ
+530,2021-01-26,500,内地企业,Mainland Enterprises,300285,国瓷材料,"Shandong Sinocera Functional Material Co., Ltd",SHZ
+531,2021-01-26,500,内地企业,Mainland Enterprises,300308,中际旭创,"ZHONGJI INNOLIGHT CO., LTD.",SHZ
+532,2021-01-26,500,内地企业,Mainland Enterprises,300316,晶盛机电,"Zhejiang Jingsheng Mechanical & Electrical Co., Ltd.",SHZ
+533,2021-01-26,500,内地企业,Mainland Enterprises,300347,泰格医药,"Hangzhou Tigermed Consulting Co., Ltd.",SHZ
+534,2021-01-26,500,内地企业,Mainland Enterprises,300383,光环新网,"Beijing Sinnet Technology Co., Ltd.",SHZ
+535,2021-01-26,500,内地企业,Mainland Enterprises,300408,三环集团,"CHAOZHOU THREE-CIRCLE(GROUP)CO.,LTD",SHZ
+536,2021-01-26,500,内地企业,Mainland Enterprises,300413,芒果超媒,"Mango Excellent Media Co., Ltd.",SHZ
+537,2021-01-26,500,内地企业,Mainland Enterprises,300433,蓝思科技,"Lens Technology Co., Ltd.",SHZ
+538,2021-01-26,500,内地企业,Mainland Enterprises,300450,先导智能,"WUXI LEAD INTELLIGENT EQUIPMENT CO., LTD.",SHZ
+539,2021-01-26,500,内地企业,Mainland Enterprises,300454,深信服,Sangfor Technologies Inc.,SHZ
+540,2021-01-26,500,内地企业,Mainland Enterprises,300474,景嘉微,"Changsha Jingjia Microelectronics Co., Ltd.",SHZ
+541,2021-01-26,500,内地企业,Mainland Enterprises,300498,温氏股份,"GUANGDONGWENSFOODSTUFFGROUPCO.,LTD",SHZ
+542,2021-01-26,500,内地企业,Mainland Enterprises,300529,健帆生物,"Jafron Biomedical Co.,Ltd.",SHZ
+543,2021-01-26,500,内地企业,Mainland Enterprises,300601,康泰生物,"Shenzhen Kangtai Biological Products Co., Ltd.",SHZ
+544,2021-01-26,500,内地企业,Mainland Enterprises,300628,亿联网络,YEALINK NETWORK TECHNOLOGY CORPORATION LIMITED,SHZ
+545,2021-01-26,500,内地企业,Mainland Enterprises,300676,华大基因,"BGI Genomics Co., Ltd",SHZ
+546,2021-01-26,500,内地企业,Mainland Enterprises,300699,光威复材,"Weihai Guangwei Composites Co.,Ltd.",SHZ
+547,2021-01-26,500,内地企业,Mainland Enterprises,300724,捷佳伟创,Shenzhen S.C New Energy Technology Corporation,SHZ
+548,2021-01-26,500,内地企业,Mainland Enterprises,300747,锐科激光,"Wuhan Raycus Fiber Laser Technologies Co., Ltd.",SHZ
+549,2021-01-26,500,内地企业,Mainland Enterprises,300750,宁德时代,"Contemporary Amperex Technology Co., Limited.",SHZ
+550,2021-01-26,500,内地企业,Mainland Enterprises,300759,康龙化成,"Pharmaron Beijing Co., Ltd.",SHZ
+551,2021-01-26,500,内地企业,Mainland Enterprises,300760,迈瑞医疗,"Shenzhen Mindray Bio-Medical Electronics Co., Ltd.",SHZ
+552,2021-01-26,500,内地企业,Mainland Enterprises,300773,拉卡拉,"Lakala Payment Co., Ltd.",SHZ
+553,2021-01-26,500,内地企业,Mainland Enterprises,300782,卓胜微,Maxscend Microelectronics Company Limited,SHZ
+554,2021-01-26,500,内地企业,Mainland Enterprises,300815,玉禾田,"EIT Environmental Development Group Co.,Ltd.",SHZ

@@ -1,0 +1,301 @@
+,日期Date,指数代码Index Code,指数名称Index Name,指数英文名称Index Name(Eng.),成分券代码Constituent Code,成分券名称Constituent Name,成分券英文名称Constituent Name(Eng.),交易所Exchange,权重(%)Weight(%)
+0,2020-12-31,300,沪深300,CSI 300,600000,浦发银行,Shanghai Pudong Development Bank Co Ltd,SHH,0.58
+1,2020-12-31,300,沪深300,CSI 300,600004,白云机场,Guangzhou Baiyun International Airport Co Ltd,SHH,0.09
+2,2020-12-31,300,沪深300,CSI 300,600009,上海机场,Shanghai International Airport Co Ltd,SHH,0.37
+3,2020-12-31,300,沪深300,CSI 300,600010,包钢股份,Inner Mongolia Baotou Steel Union Co Ltd,SHH,0.14
+4,2020-12-31,300,沪深300,CSI 300,600011,华能国际,Huaneng Power International Inc,SHH,0.1
+5,2020-12-31,300,沪深300,CSI 300,600015,华夏银行,Hua Xia Bank Co Ltd,SHH,0.2
+6,2020-12-31,300,沪深300,CSI 300,600016,民生银行,China Minsheng Banking Corp Ltd,SHH,0.56
+7,2020-12-31,300,沪深300,CSI 300,600018,上港集团,Shanghai International Port (Group) Co Ltd,SHH,0.08
+8,2020-12-31,300,沪深300,CSI 300,600019,宝钢股份,Baoshan Iron &Steel Co Ltd,SHH,0.27
+9,2020-12-31,300,沪深300,CSI 300,600025,华能水电,HuanengLancang River Hydropower Inc.,SHH,0.04
+10,2020-12-31,300,沪深300,CSI 300,600027,华电国际,Huadian Power International Corporation Ltd,SHH,0.06
+11,2020-12-31,300,沪深300,CSI 300,600028,中国石化,China Petroleum & Chemical Corporation,SHH,0.28
+12,2020-12-31,300,沪深300,CSI 300,600029,南方航空,China Southern Airlines Co Ltd,SHH,0.13
+13,2020-12-31,300,沪深300,CSI 300,600030,中信证券,CITIC Securities Co Ltd,SHH,1.28
+14,2020-12-31,300,沪深300,CSI 300,600031,三一重工,Sany Heavy Industry Co Ltd,SHH,1.06
+15,2020-12-31,300,沪深300,CSI 300,600036,招商银行,China Merchants Bank Co Ltd,SHH,2.77
+16,2020-12-31,300,沪深300,CSI 300,600048,保利地产,"Poly Developments and Holdings Group Co., Ltd.",SHH,0.58
+17,2020-12-31,300,沪深300,CSI 300,600050,中国联通,China United Network Communications Co Ltd,SHH,0.21
+18,2020-12-31,300,沪深300,CSI 300,600061,国投资本,"SDIC Capital Co., Ltd",SHH,0.12
+19,2020-12-31,300,沪深300,CSI 300,600066,宇通客车,Zhengzhou Yutong Bus Co Ltd,SHH,0.12
+20,2020-12-31,300,沪深300,CSI 300,600068,葛洲坝,China Gezhouba Group Co Ltd,SHH,0.09
+21,2020-12-31,300,沪深300,CSI 300,600085,同仁堂,Beijing Tongrentang Co Ltd,SHH,0.07
+22,2020-12-31,300,沪深300,CSI 300,600104,上汽集团,SAIC Motor Co Ltd,SHH,0.44
+23,2020-12-31,300,沪深300,CSI 300,600109,国金证券,Sinolink Securities Co. Ltd.,SHH,0.2
+24,2020-12-31,300,沪深300,CSI 300,600111,北方稀土,"China Northern Rare Earth (Group) High-Tech Co.,Ltd",SHH,0.15
+25,2020-12-31,300,沪深300,CSI 300,600115,东方航空,China Eastern Airlines Corp Ltd,SHH,0.11
+26,2020-12-31,300,沪深300,CSI 300,600118,中国卫星,China Spacesat Co Ltd,SHH,0.1
+27,2020-12-31,300,沪深300,CSI 300,600150,中国船舶,China CSSC Holdings Limited,SHH,0.06
+28,2020-12-31,300,沪深300,CSI 300,600161,天坛生物,Beijing Tiantan Biological Products Co Ltd,SHH,0.13
+29,2020-12-31,300,沪深300,CSI 300,600176,中国巨石,"CHINA JUSHI CO., LTD.",SHH,0.21
+30,2020-12-31,300,沪深300,CSI 300,600177,雅戈尔,Youngor Group Co Ltd,SHH,0.1
+31,2020-12-31,300,沪深300,CSI 300,600183,生益科技,"Shengyi Technology Co.,Ltd.",SHH,0.16
+32,2020-12-31,300,沪深300,CSI 300,600196,复星医药,Shanghai Fosun Pharmaceutical (Group) Co Ltd,SHH,0.33
+33,2020-12-31,300,沪深300,CSI 300,600208,新湖中宝,Xinhu Zhongbao Co Ltd,SHH,0.07
+34,2020-12-31,300,沪深300,CSI 300,600233,圆通速递,"YTO Express Group Co.,Ltd.",SHH,0.07
+35,2020-12-31,300,沪深300,CSI 300,600271,航天信息,"Aisino Co.,Ltd",SHH,0.07
+36,2020-12-31,300,沪深300,CSI 300,600276,恒瑞医药,Jiangsu Hengrui Medicine Co Ltd,SHH,2.12
+37,2020-12-31,300,沪深300,CSI 300,600297,广汇汽车,"China Grand Automotive Services Co., Ltd.",SHH,0.06
+38,2020-12-31,300,沪深300,CSI 300,600299,安迪苏,Bluestar Adisseo Company,SHH,0.02
+39,2020-12-31,300,沪深300,CSI 300,600309,万华化学,"Wanhua Chemical Group Co., Ltd.",SHH,0.73
+40,2020-12-31,300,沪深300,CSI 300,600332,白云山,GUANGZHOU BAIYUNSHAN PHARMACEUTICAL HOLDINGS COMPANY LIMITED,SHH,0.08
+41,2020-12-31,300,沪深300,CSI 300,600340,华夏幸福,"China Fortune Land Development Co., Ltd.",SHH,0.1
+42,2020-12-31,300,沪深300,CSI 300,600346,恒力石化,"Hengli Petrochemical Co.,Ltd.",SHH,0.3
+43,2020-12-31,300,沪深300,CSI 300,600352,浙江龙盛,Zhejiang Longsheng Group Co Ltd,SHH,0.18
+44,2020-12-31,300,沪深300,CSI 300,600362,江西铜业,Jiangxi Copper Co Ltd,SHH,0.11
+45,2020-12-31,300,沪深300,CSI 300,600369,西南证券,Southwest Securities Co Ltd,SHH,0.09
+46,2020-12-31,300,沪深300,CSI 300,600383,金地集团,Gemdale Corporation,SHH,0.16
+47,2020-12-31,300,沪深300,CSI 300,600390,五矿资本,Minmetals Capital Company Limited,SHH,0.08
+48,2020-12-31,300,沪深300,CSI 300,600406,国电南瑞,"NARI Technology Co., Ltd.",SHH,0.31
+49,2020-12-31,300,沪深300,CSI 300,600436,片仔癀,Zhangzhou Pientzehuang Pharmaceutical Co Ltd,SHH,0.41
+50,2020-12-31,300,沪深300,CSI 300,600438,通威股份,Tongwei Co Ltd,SHH,0.53
+51,2020-12-31,300,沪深300,CSI 300,600482,中国动力,"China Shipbuilding Industry Group Power Co.,Ltd",SHH,0.06
+52,2020-12-31,300,沪深300,CSI 300,600487,亨通光电,"Hengtong Optic-Electric Co.,Ltd",SHH,0.1
+53,2020-12-31,300,沪深300,CSI 300,600489,中金黄金,Zhongjin Gold Co Ltd,SHH,0.09
+54,2020-12-31,300,沪深300,CSI 300,600498,烽火通信,Fiberhome Telecommunication Technologies Co Ltd,SHH,0.09
+55,2020-12-31,300,沪深300,CSI 300,600519,贵州茅台,Kweichow Moutai Co Ltd,SHH,5.12
+56,2020-12-31,300,沪深300,CSI 300,600522,中天科技,Jiangsu Zhongtian Technologies Co Ltd,SHH,0.14
+57,2020-12-31,300,沪深300,CSI 300,600547,山东黄金,Shandong Gold-Mining Co Ltd,SHH,0.22
+58,2020-12-31,300,沪深300,CSI 300,600570,恒生电子,Hundsun Technologies Inc.,SHH,0.45
+59,2020-12-31,300,沪深300,CSI 300,600584,长电科技,"JCET Group Co., Ltd.",SHH,0.24
+60,2020-12-31,300,沪深300,CSI 300,600585,海螺水泥,Anhui Conch Cement Co Ltd,SHH,0.63
+61,2020-12-31,300,沪深300,CSI 300,600588,用友网络,"Yonyou Network Technology Co., Ltd.",SHH,0.37
+62,2020-12-31,300,沪深300,CSI 300,600600,青岛啤酒,Tsingtao Brewery Co Ltd,SHH,0.18
+63,2020-12-31,300,沪深300,CSI 300,600606,绿地控股,Greenland Holdings Corporation Limited,SHH,0.11
+64,2020-12-31,300,沪深300,CSI 300,600637,东方明珠,"Shanghai Oriental Pearl Media Co., Ltd.",SHH,0.09
+65,2020-12-31,300,沪深300,CSI 300,600655,豫园股份,"SHANGHAI YUYUAN TOURIST MART (GROUP) CO., LTD.",SHH,0.07
+66,2020-12-31,300,沪深300,CSI 300,600660,福耀玻璃,"Fuyao Glass Industry Group Co.,Ltd",SHH,0.34
+67,2020-12-31,300,沪深300,CSI 300,600690,海尔智家,"Haier Smart Home Co., Ltd.",SHH,0.56
+68,2020-12-31,300,沪深300,CSI 300,600703,三安光电,"Sanan Optoelectronics Co.,Ltd",SHH,0.31
+69,2020-12-31,300,沪深300,CSI 300,600705,中航资本,"AVIC CAPITAL CO.,LTD.",SHH,0.12
+70,2020-12-31,300,沪深300,CSI 300,600741,华域汽车,HUAYU Automotive Systems Company Limited,SHH,0.23
+71,2020-12-31,300,沪深300,CSI 300,600745,闻泰科技,"Wingtech Technology Co.,Ltd.",SHH,0.25
+72,2020-12-31,300,沪深300,CSI 300,600760,中航沈飞,AVIC SHENYANG AIRCRAFT COMPANY LIMITED,SHH,0.17
+73,2020-12-31,300,沪深300,CSI 300,600763,通策医疗,TOPCHOICE MEDICAL CORPORATION,SHH,0.32
+74,2020-12-31,300,沪深300,CSI 300,600795,国电电力,GD Power Development Co Ltd,SHH,0.14
+75,2020-12-31,300,沪深300,CSI 300,600809,山西汾酒,Shanxi Xinghuacun Fen Wine Factory Co Ltd,SHH,0.67
+76,2020-12-31,300,沪深300,CSI 300,600837,海通证券,Haitong Securities Company Limited,SHH,0.51
+77,2020-12-31,300,沪深300,CSI 300,600845,宝信软件,Shanghai Baosight Software Co Ltd,SHH,0.09
+78,2020-12-31,300,沪深300,CSI 300,600848,上海临港,Shanghai Lingang Holdings Corporation Limited,SHH,0.06
+79,2020-12-31,300,沪深300,CSI 300,600872,中炬高新,"Jonjee Hi-Tech Industrial and Commercial Holding Co.,Ltd.",SHH,0.19
+80,2020-12-31,300,沪深300,CSI 300,600886,国投电力,"SDIC Power Holdings Co.,Ltd.",SHH,0.12
+81,2020-12-31,300,沪深300,CSI 300,600887,伊利股份,Inner Mongolia Yili Industrial Group Co Ltd,SHH,1.38
+82,2020-12-31,300,沪深300,CSI 300,600893,航发动力,AVIC AVIATION ENGINE CORPORATION PLC.,SHH,0.32
+83,2020-12-31,300,沪深300,CSI 300,600900,长江电力,China Yangtze Power Co Ltd,SHH,0.89
+84,2020-12-31,300,沪深300,CSI 300,600918,中泰证券,"ZHONGTAI SECURITIES CO., LTD.",SHH,0.07
+85,2020-12-31,300,沪深300,CSI 300,600919,江苏银行,"Bank of Jiangsu Co., Ltd",SHH,0.33
+86,2020-12-31,300,沪深300,CSI 300,600926,杭州银行,"BANK OF HANGZHOU CO., LTD",SHH,0.23
+87,2020-12-31,300,沪深300,CSI 300,600958,东方证券,ORIENT SECURITIES COMPANY LIMITED,SHH,0.25
+88,2020-12-31,300,沪深300,CSI 300,600989,宝丰能源,"Ningxia Baofeng Energy Group Co., Ltd.",SHH,0.04
+89,2020-12-31,300,沪深300,CSI 300,600998,九州通,Jointown Pharmaceutical Group Co Ltd,SHH,0.07
+90,2020-12-31,300,沪深300,CSI 300,600999,招商证券,China Merchants Securities Co Ltd,SHH,0.44
+91,2020-12-31,300,沪深300,CSI 300,601006,大秦铁路,Daqin Railway Co Ltd,SHH,0.2
+92,2020-12-31,300,沪深300,CSI 300,601009,南京银行,Bank of Nanjing Co Ltd,SHH,0.25
+93,2020-12-31,300,沪深300,CSI 300,601012,隆基股份,"Longi Green Energy Technology Co., Ltd.",SHH,1.24
+94,2020-12-31,300,沪深300,CSI 300,601021,春秋航空,"Spring Airlines Co., Ltd.",SHH,0.1
+95,2020-12-31,300,沪深300,CSI 300,601066,中信建投,"China Securities Co., Ltd.",SHH,0.21
+96,2020-12-31,300,沪深300,CSI 300,601077,渝农商行,"Chongqing Rural Commercial Bank Co., Ltd.",SHH,0.04
+97,2020-12-31,300,沪深300,CSI 300,601088,中国神华,China Shenhua Energy Co Ltd,SHH,0.3
+98,2020-12-31,300,沪深300,CSI 300,601100,恒立液压,"Jiangsu Hengli Hydraulic CO., Ltd.",SHH,0.23
+99,2020-12-31,300,沪深300,CSI 300,601108,财通证券,"CAITONG SECURITIES CO.,LTD.",SHH,0.16
+100,2020-12-31,300,沪深300,CSI 300,601111,中国国航,Air China Ltd,SHH,0.11
+101,2020-12-31,300,沪深300,CSI 300,601117,中国化学,China National Chemical Engineering Co Ltd,SHH,0.07
+102,2020-12-31,300,沪深300,CSI 300,601138,工业富联,"Foxconn Industrial Internet Co., Ltd.",SHH,0.14
+103,2020-12-31,300,沪深300,CSI 300,601155,新城控股,"Future Land Holdings Co., Ltd.",SHH,0.16
+104,2020-12-31,300,沪深300,CSI 300,601162,天风证券,"TIANFENG SECURITIES CO., LTD.",SHH,0.1
+105,2020-12-31,300,沪深300,CSI 300,601166,兴业银行,Industrial Bank,SHH,1.55
+106,2020-12-31,300,沪深300,CSI 300,601169,北京银行,Bank of Beijing Co Ltd,SHH,0.37
+107,2020-12-31,300,沪深300,CSI 300,601186,中国铁建,China Railway Construction Co Ltd,SHH,0.19
+108,2020-12-31,300,沪深300,CSI 300,601198,东兴证券,"DONGXING SECURITIES CO., LTD.",SHH,0.09
+109,2020-12-31,300,沪深300,CSI 300,601211,国泰君安,"Guotai Junan Securities Co., Ltd.",SHH,0.4
+110,2020-12-31,300,沪深300,CSI 300,601216,君正集团,"Inner Mongolia Junzheng Energy & Chemical Group Co.,Ltd.",SHH,0.09
+111,2020-12-31,300,沪深300,CSI 300,601225,陕西煤业,Shaanxi Coal Industry Company Limited,SHH,0.19
+112,2020-12-31,300,沪深300,CSI 300,601229,上海银行,"Bank of Shanghai Co., Ltd.",SHH,0.4
+113,2020-12-31,300,沪深300,CSI 300,601231,环旭电子,"Universal Scientific Industrial (Shanghai) Co.,Ltd.",SHH,0.07
+114,2020-12-31,300,沪深300,CSI 300,601236,红塔证券,"HONGTA SECURITIES CO., LTD.",SHH,0.07
+115,2020-12-31,300,沪深300,CSI 300,601238,广汽集团,"Guangzhou Automobile Group Co., Ltd.",SHH,0.06
+116,2020-12-31,300,沪深300,CSI 300,601288,农业银行,Agricultural Bank of China Co Ltd,SHH,0.46
+117,2020-12-31,300,沪深300,CSI 300,601318,中国平安,Ping An Insurance (Group) Company of China Ltd,SHH,4.8
+118,2020-12-31,300,沪深300,CSI 300,601319,中国人保,The People's Insurance Company (Group) of China Limited,SHH,0.07
+119,2020-12-31,300,沪深300,CSI 300,601328,交通银行,Bank of Communications Co LTD,SHH,0.63
+120,2020-12-31,300,沪深300,CSI 300,601336,新华保险,New China Life Insurance Co Ltd,SHH,0.25
+121,2020-12-31,300,沪深300,CSI 300,601360,三六零,360 Security Technology Inc.,SHH,0.16
+122,2020-12-31,300,沪深300,CSI 300,601377,兴业证券,Industrial Securities Co Ltd,SHH,0.24
+123,2020-12-31,300,沪深300,CSI 300,601390,中国中铁,China Railway Group Limited,SHH,0.27
+124,2020-12-31,300,沪深300,CSI 300,601398,工商银行,Industrial and Commercial Bank of China Ltd,SHH,0.89
+125,2020-12-31,300,沪深300,CSI 300,601555,东吴证券,Soochow Securities Co Ltd,SHH,0.16
+126,2020-12-31,300,沪深300,CSI 300,601577,长沙银行,"BANK OF CHANGSHA CO., LTD.",SHH,0.05
+127,2020-12-31,300,沪深300,CSI 300,601600,中国铝业,Aluminum Corporation of China Limited,SHH,0.12
+128,2020-12-31,300,沪深300,CSI 300,601601,中国太保,China Pacific Insurance (Group) Co Ltd,SHH,0.67
+129,2020-12-31,300,沪深300,CSI 300,601607,上海医药,"Shanghai Pharmaceuticals Holding Co.,Ltd",SHH,0.11
+130,2020-12-31,300,沪深300,CSI 300,601618,中国中冶,Metallurgical Corporation of China Co Ltd,SHH,0.1
+131,2020-12-31,300,沪深300,CSI 300,601628,中国人寿,China Life Insurance Company Limited,SHH,0.33
+132,2020-12-31,300,沪深300,CSI 300,601633,长城汽车,Great Wall Motor Co Ltd,SHH,0.23
+133,2020-12-31,300,沪深300,CSI 300,601658,邮储银行,"POSTAL SAVINGS BANK OF CHINA CO., LTD.",SHH,0.08
+134,2020-12-31,300,沪深300,CSI 300,601668,中国建筑,China State Construction Engineering Co Ltd,SHH,0.53
+135,2020-12-31,300,沪深300,CSI 300,601669,中国电建,"Power Construction Corporation of China,Ltd",SHH,0.15
+136,2020-12-31,300,沪深300,CSI 300,601688,华泰证券,Huatai Securities Co Ltd,SHH,0.54
+137,2020-12-31,300,沪深300,CSI 300,601696,中银证券,"BOC International (China) Co., Ltd.",SHH,0.04
+138,2020-12-31,300,沪深300,CSI 300,601698,中国卫通,"China Satellite Communications Co.,Ltd.",SHH,0.04
+139,2020-12-31,300,沪深300,CSI 300,601727,上海电气,Shanghai Electric Group Co Ltd,SHH,0.1
+140,2020-12-31,300,沪深300,CSI 300,601766,中国中车,CRRC Corporation Limited,SHH,0.33
+141,2020-12-31,300,沪深300,CSI 300,601788,光大证券,Everbright Securities Co Ltd,SHH,0.18
+142,2020-12-31,300,沪深300,CSI 300,601800,中国交建,China Communications Construction Company Limited,SHH,0.13
+143,2020-12-31,300,沪深300,CSI 300,601808,中海油服,China Oilfield Services Limited,SHH,0.04
+144,2020-12-31,300,沪深300,CSI 300,601816,京沪高铁,"Beijing-Shanghai High Speed Railway Co.,Ltd",SHH,0.1
+145,2020-12-31,300,沪深300,CSI 300,601818,光大银行,China Everbright Bank Co Ltd,SHH,0.32
+146,2020-12-31,300,沪深300,CSI 300,601838,成都银行,"BANK OF CHENGDU CO., LTD.",SHH,0.12
+147,2020-12-31,300,沪深300,CSI 300,601857,中国石油,PetroChina Co Ltd,SHH,0.21
+148,2020-12-31,300,沪深300,CSI 300,601872,招商轮船,"China Merchants Energy Shipping Co., Ltd.",SHH,0.06
+149,2020-12-31,300,沪深300,CSI 300,601877,正泰电器,Zhejiang Chint Electrics Co Ltd,SHH,0.22
+150,2020-12-31,300,沪深300,CSI 300,601878,浙商证券,"ZHESHANG SECURITIES CO., LTD.",SHH,0.14
+151,2020-12-31,300,沪深300,CSI 300,601881,中国银河,"China Galaxy Securities Co., Ltd.",SHH,0.08
+152,2020-12-31,300,沪深300,CSI 300,601888,中国中免,China Tourism Group Duty Free Corporation Limited,SHH,1.41
+153,2020-12-31,300,沪深300,CSI 300,601899,紫金矿业,Zijin Mining Group Co Ltd,SHH,0.65
+154,2020-12-31,300,沪深300,CSI 300,601901,方正证券,Founder Securities Co Ltd,SHH,0.22
+155,2020-12-31,300,沪深300,CSI 300,601916,浙商银行,"CHINA ZHESHANG BANK CO.,LTD",SHH,0.07
+156,2020-12-31,300,沪深300,CSI 300,601919,中远海控,"COSCO SHIPPING Holdings Co., Ltd.",SHH,0.3
+157,2020-12-31,300,沪深300,CSI 300,601933,永辉超市,Yonghui Superstores Co Ltd,SHH,0.14
+158,2020-12-31,300,沪深300,CSI 300,601939,建设银行,China Construction Bank,SHH,0.22
+159,2020-12-31,300,沪深300,CSI 300,601985,中国核电,"China National Nuclear Power Co.,Ltd.",SHH,0.16
+160,2020-12-31,300,沪深300,CSI 300,601988,中国银行,Bank of China Ltd,SHH,0.34
+161,2020-12-31,300,沪深300,CSI 300,601989,中国重工,China Shipbuilding Industry Co Ltd,SHH,0.2
+162,2020-12-31,300,沪深300,CSI 300,601990,南京证券,"Nanjing Securities Co., Ltd.",SHH,0.09
+163,2020-12-31,300,沪深300,CSI 300,601998,中信银行,China Citic Bank Corporation Limited,SHH,0.08
+164,2020-12-31,300,沪深300,CSI 300,603019,中科曙光,"Dawning Information Industry Co., Ltd.",SHH,0.18
+165,2020-12-31,300,沪深300,CSI 300,603087,甘李药业,Gan & Lee Pharmaceuticals,SHH,0.04
+166,2020-12-31,300,沪深300,CSI 300,603156,养元饮品,"Hebei Yangyuan ZhiHui Beverage Co., Ltd.",SHH,0.07
+167,2020-12-31,300,沪深300,CSI 300,603160,汇顶科技,"Shenzhen Huiding Technology Co., Ltd.",SHH,0.18
+168,2020-12-31,300,沪深300,CSI 300,603195,公牛集团,"GONGNIU GROUP CO., LTD.",SHH,0.06
+169,2020-12-31,300,沪深300,CSI 300,603259,药明康德,"WuXi AppTec Co., Ltd.",SHH,0.88
+170,2020-12-31,300,沪深300,CSI 300,603288,海天味业,Foshan Haitian Flavouring and Food Company Ltd.,SHH,0.99
+171,2020-12-31,300,沪深300,CSI 300,603369,今世缘,"Jiangsu King's Luck Brewery Joint-Stock Co., Ltd.",SHH,0.18
+172,2020-12-31,300,沪深300,CSI 300,603392,万泰生物,"BEIJING WANTAI BIOLOGICAL PHARMACY ENTERPRISE CO., LTD.",SHH,0.05
+173,2020-12-31,300,沪深300,CSI 300,603501,韦尔股份,"Will Semiconductor CO.,Ltd. Shanghai",SHH,0.51
+174,2020-12-31,300,沪深300,CSI 300,603658,安图生物,"Autobio Diagnostics Co., Ltd.",SHH,0.1
+175,2020-12-31,300,沪深300,CSI 300,603799,华友钴业,"ZHEJIANG HUAYOU COBALT CO., LTD.",SHH,0.28
+176,2020-12-31,300,沪深300,CSI 300,603833,欧派家居,Oppein Home Group Inc.,SHH,0.12
+177,2020-12-31,300,沪深300,CSI 300,603899,晨光文具,SHANGHAI M&G STATIONERY INC.,SHH,0.17
+178,2020-12-31,300,沪深300,CSI 300,603986,兆易创新,GigaDevice Semiconductor (Beijing) Inc.,SHH,0.33
+179,2020-12-31,300,沪深300,CSI 300,603993,洛阳钼业,"China Molybdenum Co., Ltd.",SHH,0.23
+180,2020-12-31,300,沪深300,CSI 300,688008,澜起科技,"Montage Technology Co., Ltd.",SHH,0.19
+181,2020-12-31,300,沪深300,CSI 300,688009,中国通号,China Railway Signal & Communication Corporation Limited,SHH,0.08
+182,2020-12-31,300,沪深300,CSI 300,688012,中微公司,Advanced Micro-Fabrication Equipment Inc. China,SHH,0.17
+183,2020-12-31,300,沪深300,CSI 300,688036,传音控股,"SHENZHEN TRANSSION HOLDINGS CO., LTD.",SHH,0.12
+184,2020-12-31,300,沪深300,CSI 300,1,平安银行,"Ping An Bank Co., Ltd.",SHZ,0.96
+185,2020-12-31,300,沪深300,CSI 300,2,万科A,China Vanke Co Ltd,SHZ,1.0
+186,2020-12-31,300,沪深300,CSI 300,63,中兴通讯,ZTE Corporation,SHZ,0.46
+187,2020-12-31,300,沪深300,CSI 300,66,中国长城,"CHINA GREATWALL TECHNOLOGY GROUP CO., LTD.",SHZ,0.17
+188,2020-12-31,300,沪深300,CSI 300,69,华侨城A,Shenzhen Overseas Chinese Town Co Ltd,SHZ,0.15
+189,2020-12-31,300,沪深300,CSI 300,100,TCL科技,TCL Technology Group Corporation,SHZ,0.51
+190,2020-12-31,300,沪深300,CSI 300,157,中联重科,Zoomlion Heavy Industry Science & Technology Co Ltd,SHZ,0.23
+191,2020-12-31,300,沪深300,CSI 300,166,申万宏源,"Shenwan Hongyuan Group CO., LTD",SHZ,0.24
+192,2020-12-31,300,沪深300,CSI 300,333,美的集团,"Midea Group CO., LTD",SHZ,2.47
+193,2020-12-31,300,沪深300,CSI 300,338,潍柴动力,Wei Chai Power Co Ltd,SHZ,0.39
+194,2020-12-31,300,沪深300,CSI 300,425,徐工机械,XCMG Construction Machinery Co Ltd,SHZ,0.13
+195,2020-12-31,300,沪深300,CSI 300,538,云南白药,"Yunnan Baiyao Group Co., Ltd.",SHZ,0.3
+196,2020-12-31,300,沪深300,CSI 300,568,泸州老窖,Luzhou Lao Jiao Co Ltd,SHZ,0.84
+197,2020-12-31,300,沪深300,CSI 300,596,古井贡酒,Anhui Gujing Distillery Co Ltd,SHZ,0.16
+198,2020-12-31,300,沪深300,CSI 300,625,长安汽车,Chongqing Changan Automobile Co Ltd,SHZ,0.25
+199,2020-12-31,300,沪深300,CSI 300,627,天茂集团,Hubei Biocause Pharmaceutical Co Ltd,SHZ,0.05
+200,2020-12-31,300,沪深300,CSI 300,651,格力电器,"Gree Electric Appliances,Inc. of Zhuhai",SHZ,1.52
+201,2020-12-31,300,沪深300,CSI 300,656,金科股份,"Jinke Property Group Co.,Ltd.",SHZ,0.12
+202,2020-12-31,300,沪深300,CSI 300,661,长春高新,Chang Chun High and New Technology Industry (Group) Inc.,SHZ,0.65
+203,2020-12-31,300,沪深300,CSI 300,671,阳光城,"Sunshine City Group Co., Ltd.",SHZ,0.06
+204,2020-12-31,300,沪深300,CSI 300,703,恒逸石化,Hengyi Petrochemical Co Ltd,SHZ,0.12
+205,2020-12-31,300,沪深300,CSI 300,708,中信特钢,"CITIC Pacific Special Steel Group Co., Ltd",SHZ,0.11
+206,2020-12-31,300,沪深300,CSI 300,723,美锦能源,"Shanxi Meijin Energy Co.,Ltd.",SHZ,0.07
+207,2020-12-31,300,沪深300,CSI 300,725,京东方A,BOE Technology Group Co Ltd,SHZ,0.83
+208,2020-12-31,300,沪深300,CSI 300,728,国元证券,Guoyuan Securities Company Limited,SHZ,0.12
+209,2020-12-31,300,沪深300,CSI 300,768,中航西飞,AVIC XI'AN AIRCRAFT INDUSTRY GROUP COMPANY LTD.,SHZ,0.26
+210,2020-12-31,300,沪深300,CSI 300,776,广发证券,"GF Securities Co., Ltd.",SHZ,0.25
+211,2020-12-31,300,沪深300,CSI 300,783,长江证券,Changjiang Securities Company Limited,SHZ,0.17
+212,2020-12-31,300,沪深300,CSI 300,786,北新建材,Beijing New Building Materials Public Ltd Co,SHZ,0.21
+213,2020-12-31,300,沪深300,CSI 300,858,五 粮 液,Wuliangye Yibin Co Ltd,SHZ,2.89
+214,2020-12-31,300,沪深300,CSI 300,860,顺鑫农业,Beijing Shunxin Agriculture Co Ltd,SHZ,0.19
+215,2020-12-31,300,沪深300,CSI 300,876,新 希 望,"NEW HOPE LIUHE CO., LTD",SHZ,0.26
+216,2020-12-31,300,沪深300,CSI 300,895,双汇发展,Henan Shuanghui Investment & Development Co Ltd,SHZ,0.25
+217,2020-12-31,300,沪深300,CSI 300,938,紫光股份,"Unisplendour Co., Ltd.",SHZ,0.15
+218,2020-12-31,300,沪深300,CSI 300,961,中南建设,"Jiangsu Zhongnan Construction Group Co.,Ltd",SHZ,0.09
+219,2020-12-31,300,沪深300,CSI 300,963,华东医药,Huadong Medicine Co Ltd,SHZ,0.12
+220,2020-12-31,300,沪深300,CSI 300,977,浪潮信息,"Inspur Electronic Information Industry Co.,Ltd",SHZ,0.14
+221,2020-12-31,300,沪深300,CSI 300,1979,招商蛇口,"CHINA MERCHANTS SHEKOU INDUSTRIAL ZONE HOLDINGS CO.,LTD",SHZ,0.22
+222,2020-12-31,300,沪深300,CSI 300,2001,新和成,Zhejiang NHU Co Ltd,SHZ,0.22
+223,2020-12-31,300,沪深300,CSI 300,2007,华兰生物,Hualan Biological Engineering INC,SHZ,0.24
+224,2020-12-31,300,沪深300,CSI 300,2008,大族激光,"Han's Laser Technology Industry Group Co., Ltd.",SHZ,0.19
+225,2020-12-31,300,沪深300,CSI 300,2024,苏宁易购,"SUNING.COM CO.,LTD.",SHZ,0.15
+226,2020-12-31,300,沪深300,CSI 300,2027,分众传媒,"Focus Media Information Technology Co., Ltd.",SHZ,0.52
+227,2020-12-31,300,沪深300,CSI 300,2032,苏泊尔,"Zhejiang Supor Co.,Ltd",SHZ,0.07
+228,2020-12-31,300,沪深300,CSI 300,2044,美年健康,"Meinian Onehealth Healthcare Holdings Co., Ltd.",SHZ,0.16
+229,2020-12-31,300,沪深300,CSI 300,2049,紫光国微,"Unigroup Guoxin Microelectronics Co., Ltd.",SHZ,0.29
+230,2020-12-31,300,沪深300,CSI 300,2050,三花智控,"ZHEJIANG SANHUA INTELLIGENT CONTROLS CO.,LTD.",SHZ,0.23
+231,2020-12-31,300,沪深300,CSI 300,2120,韵达股份,"YUNDA Holding CO., Ltd.",SHZ,0.09
+232,2020-12-31,300,沪深300,CSI 300,2129,中环股份,"Tianjin Zhonghuan Semiconductor Co., Ltd.",SHZ,0.24
+233,2020-12-31,300,沪深300,CSI 300,2142,宁波银行,Bank of Ningbo Co Ltd,SHZ,0.54
+234,2020-12-31,300,沪深300,CSI 300,2146,荣盛发展,Risesun Real Estate Development Co Ltd,SHZ,0.06
+235,2020-12-31,300,沪深300,CSI 300,2153,石基信息,Beijing Shiji Information Technology Co Ltd,SHZ,0.05
+236,2020-12-31,300,沪深300,CSI 300,2157,正邦科技,Jiangxi Zhengbang Technology Co Ltd,SHZ,0.11
+237,2020-12-31,300,沪深300,CSI 300,2179,中航光电,"AVIC Jonhon Optronic Technology Co.,Ltd.",SHZ,0.22
+238,2020-12-31,300,沪深300,CSI 300,2202,金风科技,Xinjiang Goldwind Science & Technology Co Ltd,SHZ,0.2
+239,2020-12-31,300,沪深300,CSI 300,2230,科大讯飞,"Iflytek Co.,Ltd.",SHZ,0.37
+240,2020-12-31,300,沪深300,CSI 300,2236,大华股份,Zhejiang Dahua Technology Co Ltd,SHZ,0.18
+241,2020-12-31,300,沪深300,CSI 300,2241,歌尔股份,GoerTek Inc,SHZ,0.43
+242,2020-12-31,300,沪深300,CSI 300,2252,上海莱士,Shanghai RAAS Blood Products Co Ltd,SHZ,0.1
+243,2020-12-31,300,沪深300,CSI 300,2271,东方雨虹,Beijing Oriental Yuhong Waterproof Technology Co Ltd,SHZ,0.33
+244,2020-12-31,300,沪深300,CSI 300,2304,洋河股份,Jiangsu Yanghe Brewery Joint-Stock Co Ltd,SHZ,0.73
+245,2020-12-31,300,沪深300,CSI 300,2311,海大集团,Guangdong Haid Group Co Ltd,SHZ,0.27
+246,2020-12-31,300,沪深300,CSI 300,2352,顺丰控股,"S.F. Holding Co., Ltd.",SHZ,0.82
+247,2020-12-31,300,沪深300,CSI 300,2371,北方华创,"NAURA Technology Group Co.,Ltd.",SHZ,0.23
+248,2020-12-31,300,沪深300,CSI 300,2384,东山精密,Suzhou Dongshan Precision Manufacturing Co Ltd,SHZ,0.16
+249,2020-12-31,300,沪深300,CSI 300,2410,广联达,Glodon Software Co Ltd,SHZ,0.38
+250,2020-12-31,300,沪深300,CSI 300,2414,高德红外,Wuhan Guide Infrared Co Ltd,SHZ,0.14
+251,2020-12-31,300,沪深300,CSI 300,2415,海康威视,Hangzhou Hikvision Digital Technology Co Ltd,SHZ,0.92
+252,2020-12-31,300,沪深300,CSI 300,2422,科伦药业,Sichuan Kelun Pharmaceutical Co Ltd,SHZ,0.1
+253,2020-12-31,300,沪深300,CSI 300,2456,欧菲光,"OFILM Group Co., Ltd.",SHZ,0.15
+254,2020-12-31,300,沪深300,CSI 300,2460,赣锋锂业,Ganfeng Lithium Co Ltd,SHZ,0.4
+255,2020-12-31,300,沪深300,CSI 300,2463,沪电股份,Wus Printed Circuit (Kunshan) Co Ltd,SHZ,0.12
+256,2020-12-31,300,沪深300,CSI 300,2475,立讯精密,"Luxshare Precision Industry Co., Ltd.",SHZ,1.2
+257,2020-12-31,300,沪深300,CSI 300,2493,荣盛石化,Rongsheng Petro Chemical Co Ltd,SHZ,0.29
+258,2020-12-31,300,沪深300,CSI 300,2508,老板电器,Hangzhou Robam Appliances Co Ltd,SHZ,0.1
+259,2020-12-31,300,沪深300,CSI 300,2555,三七互娱,"WUHU SANQI INTERACTIVE ENTERTAINMENT NETWORK TECHNOLOGY GROUP CO.,LTD.",SHZ,0.2
+260,2020-12-31,300,沪深300,CSI 300,2558,巨人网络,"Giant Network Group Co., Ltd.",SHZ,0.07
+261,2020-12-31,300,沪深300,CSI 300,2594,比亚迪,BYD Co Ltd,SHZ,0.9
+262,2020-12-31,300,沪深300,CSI 300,2600,领益智造,LINGYI iTECH (GUANGDONG) COMPANY,SHZ,0.17
+263,2020-12-31,300,沪深300,CSI 300,2601,龙蟒佰利,"Lomon Billions Group Co., Ltd.",SHZ,0.19
+264,2020-12-31,300,沪深300,CSI 300,2602,世纪华通,"ZHEJIANG CENTURY HUATONG GROUP CO., LTD",SHZ,0.14
+265,2020-12-31,300,沪深300,CSI 300,2607,中公教育,"Offcn Education Technology Co., Ltd.",SHZ,0.12
+266,2020-12-31,300,沪深300,CSI 300,2624,完美世界,"Perfect World Co., Ltd.",SHZ,0.18
+267,2020-12-31,300,沪深300,CSI 300,2673,西部证券,"WESTERN SECURITIES CO., LTD",SHZ,0.09
+268,2020-12-31,300,沪深300,CSI 300,2714,牧原股份,"Muyuan Foodstuff Co., Ltd",SHZ,0.74
+269,2020-12-31,300,沪深300,CSI 300,2736,国信证券,"GUOSEN SECURITIES CO., LTD.",SHZ,0.2
+270,2020-12-31,300,沪深300,CSI 300,2739,万达电影,"WANDA FILM HOLDING CO., LTD",SHZ,0.08
+271,2020-12-31,300,沪深300,CSI 300,2773,康弘药业,"Chengdu Kanghong Pharmaceutical Group Co., Ltd",SHZ,0.09
+272,2020-12-31,300,沪深300,CSI 300,2812,恩捷股份,"Yunnan Energy New Material Co., Ltd.",SHZ,0.32
+273,2020-12-31,300,沪深300,CSI 300,2821,凯莱英,"Asymchem Laboratories (Tianjin) Co., Ltd.",SHZ,0.22
+274,2020-12-31,300,沪深300,CSI 300,2841,视源股份,Guangzhou Shiyuan Electronic Technology Company Limited,SHZ,0.2
+275,2020-12-31,300,沪深300,CSI 300,2916,深南电路,"Shennan Circuits Co., Ltd.",SHZ,0.11
+276,2020-12-31,300,沪深300,CSI 300,2938,鹏鼎控股,"Avary Holding (Shenzhen) Co., Limited",SHZ,0.18
+277,2020-12-31,300,沪深300,CSI 300,2939,长城证券,"CHINA GREAT WALL SECURITIES CO., LTD.",SHZ,0.06
+278,2020-12-31,300,沪深300,CSI 300,2945,华林证券,"ChinaLin Securities Co., Ltd.",SHZ,0.02
+279,2020-12-31,300,沪深300,CSI 300,2958,青农商行,Qingdao Rural Commercial Bank Corporation,SHZ,0.07
+280,2020-12-31,300,沪深300,CSI 300,3816,中国广核,"CGN Power Co., Ltd.",SHZ,0.17
+281,2020-12-31,300,沪深300,CSI 300,300003,乐普医疗,Lepu Medical Technology (Beijing) Co Ltd,SHZ,0.18
+282,2020-12-31,300,沪深300,CSI 300,300014,亿纬锂能,Eve Energy Co Ltd,SHZ,0.47
+283,2020-12-31,300,沪深300,CSI 300,300015,爱尔眼科,Aier Eye Hospital Group Co Ltd,SHZ,0.63
+284,2020-12-31,300,沪深300,CSI 300,300033,同花顺,"Hithink Royalflush Information Network Co.,Ltd.",SHZ,0.14
+285,2020-12-31,300,沪深300,CSI 300,300059,东方财富,East Money Information Co Ltd,SHZ,1.09
+286,2020-12-31,300,沪深300,CSI 300,300122,智飞生物,Chongqing Zhifei Biological Products Co Ltd,SHZ,0.48
+287,2020-12-31,300,沪深300,CSI 300,300124,汇川技术,Shenzhen Inovance Technology Co Ltd,SHZ,0.49
+288,2020-12-31,300,沪深300,CSI 300,300136,信维通信,Shenzhen Sunway Communication Co Ltd,SHZ,0.14
+289,2020-12-31,300,沪深300,CSI 300,300142,沃森生物,Walvax Biotechnology Co Ltd,SHZ,0.3
+290,2020-12-31,300,沪深300,CSI 300,300144,宋城演艺,"SONGCHENG PERFORMANCE DEVELOPMENT CO., LTD.",SHZ,0.14
+291,2020-12-31,300,沪深300,CSI 300,300347,泰格医药,"Hangzhou Tigermed Consulting Co., Ltd.",SHZ,0.43
+292,2020-12-31,300,沪深300,CSI 300,300408,三环集团,"CHAOZHOU THREE-CIRCLE(GROUP)CO.,LTD",SHZ,0.21
+293,2020-12-31,300,沪深300,CSI 300,300413,芒果超媒,"Mango Excellent Media Co., Ltd.",SHZ,0.26
+294,2020-12-31,300,沪深300,CSI 300,300433,蓝思科技,"Lens Technology Co., Ltd.",SHZ,0.21
+295,2020-12-31,300,沪深300,CSI 300,300498,温氏股份,"GUANGDONGWENSFOODSTUFFGROUPCO.,LTD",SHZ,0.42
+296,2020-12-31,300,沪深300,CSI 300,300529,健帆生物,"Jafron Biomedical Co.,Ltd.",SHZ,0.14
+297,2020-12-31,300,沪深300,CSI 300,300601,康泰生物,"Shenzhen Kangtai Biological Products Co., Ltd.",SHZ,0.3
+298,2020-12-31,300,沪深300,CSI 300,300628,亿联网络,YEALINK NETWORK TECHNOLOGY CORPORATION LIMITED,SHZ,0.1
+299,2020-12-31,300,沪深300,CSI 300,300676,华大基因,"BGI Genomics Co., Ltd",SHZ,0.13
