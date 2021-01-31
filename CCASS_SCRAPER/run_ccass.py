@@ -2,6 +2,27 @@ from CCASS_SCRAPER.GetCCASSData import GetCCASSData
 import pandas as pd
 import os
 
+def download_single_stock(sdate, edate, code):
+    dts = pd.bdate_range(sdate, edate)
+    dfs = []
+    with GetCCASSData() as gcas:
+        for dt in dts:
+            gcas.click_date(dt)
+            gcas.enter_stock(code)
+            try:
+                gcas.click_date(dt)
+                gcas.click_search_button()
+                df = gcas.read_main_table()
+                curdt = gcas.get_current_date()
+                df.assign(code=str(code), date=curdt)
+            except ElementNotInteractableException:
+                print('Failed to retrieve {code} for {date}'.\
+                      format(code=str(code), date=curdt))
+            dfs.append(df)
+    df = pd.concat(dfs)
+    return df
+    
+    
 def run_for_single_stock_by_date(code, dt):
     with GetCCASSData() as gcas:
         gcas.click_date(dt)
