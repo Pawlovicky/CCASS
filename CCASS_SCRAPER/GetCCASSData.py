@@ -1,6 +1,7 @@
 from selenium import webdriver
 import pandas as pd
 import os
+import sys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -23,13 +24,16 @@ class GetCCASSData:
     def start_driver(self):
         # Call this only when starting the browser
         options = Options()
-        fn = r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'
-        options = Options()
-        #options.binary_location = driverfn
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--remote-debugging-port=9222')
+        if os.name == 'nt': 
+            fn = r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'
+        else:
+            fn = '/chromedriver'
         self.driver = webdriver.Chrome(executable_path=fn, options=options)
-        #self.driver = webdriver.Chrome(driverfn)
         self.until = WebDriverWait(self.driver, 20).until
         return self
     

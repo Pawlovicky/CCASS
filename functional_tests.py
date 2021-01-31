@@ -27,26 +27,5 @@ class GetCCASSDataTest(unittest.TestCase):
         df = self.gcas.read_main_table()
         self.assertTrue(df.shape[0] > 0)
 
-class CCASSDownloadManagerTest(unittest.TestCase):
-    def setUp(self):
-        self.cdl = CCASSDownloadManager().load().filter_tasks()
-        return self
-    
-    def test_downloads(self):
-        selcodes = [175]
-        sdf = self.cdl.taskdf.loc[self.cdl.taskdf['code'].isin(selcodes)]
-        rlist = sdf.sample(frac=0.1, random_state=1).set_index('date')\
-                   .loc[:, ['code']].to_records().tolist()
-        n = 5
-        lofl = [rlist[i::n] for i in range(n)]
-        from multiprocessing import Pool
-        p = Pool(5)
-        dfs = p.map(rc.run_for_all_stocks_by_records, lofl)
-        tdf = pd.concat(dfs)
-        cond = tdf.loc[tdf['Participant ID'] == 'C00019'].sort_values('date')\
-                  .set_index('date')['Shareholding'].iloc[0] == '2,811,634,518'
-        self.assertTrue(cond)
-        
-        
 if __name__ == '__main__':  
     unittest.main()
