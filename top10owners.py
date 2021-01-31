@@ -26,15 +26,8 @@ else:
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
-def get_last_business_date_range():
-    edt = rc.get_current_date()
-    sdt = edt - pd.to_timedelta('365 days')
-    edt = pd.bdate_range(sdt, edt)[-1]
-    sdt = edt - pd.to_timedelta('365 days')
-    return sdt, edt
-
-sdt, edt = get_last_business_date_range()
+edt = rc.get_current_date()
+sdt = edt - pd.to_timedelta('365 days')
 
 def datepicker(mdate, edate, idnm='my-date-picker-single'):
     fn = dcc.DatePickerSingle(
