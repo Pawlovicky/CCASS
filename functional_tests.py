@@ -27,5 +27,13 @@ class GetCCASSDataTest(unittest.TestCase):
         df = self.gcas.read_main_table()
         self.assertTrue(df.shape[0] > 0)
 
+class TestDataTester(unittest.TestCase):
+    
+    def test_data_generator(self):
+        startdate = pd.Timestamp('2020-10-01')
+        enddate = pd.Timestamp('2021-01-28')
+        df = get_holdings_test_data(startdate, enddate, 1)
+        self.assertTrue(df.shape[0] > 0)
+        
 if __name__ == '__main__':  
     unittest.main()
