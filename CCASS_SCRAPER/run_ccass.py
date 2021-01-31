@@ -4,6 +4,7 @@ import os
 
 def download_single_stock(sdate, edate, code):
     dts = pd.bdate_range(sdate, edate)
+    assert len(dts) > 0
     dfs = []
     with GetCCASSData() as gcas:
         for dt in dts:

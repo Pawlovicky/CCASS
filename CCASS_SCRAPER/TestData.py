@@ -3,6 +3,7 @@ import numpy as np
 
 def generate_df(sdt, edt, n=30):
     dts = pd.bdate_range(sdt, edt)
+    assert len(dts) > 0
     shp1 = [dts.shape[0], n]
     chngs = np.random.randn(*shp1)*0.01
     df = (pd.DataFrame(chngs)+1).cumprod()
