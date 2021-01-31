@@ -2,9 +2,25 @@ from CCASS_SCRAPER.GetCCASSData import GetCCASSData
 import pandas as pd
 import os
 
+def tbl_post_processing(fun):
+    def formatter(*args, **kwargs):
+        df = fun(*args, **kwargs)
+        colnms = ['pid', 'pname', 'address', 'shareholding', 'ownership', 'code',
+                  'date']
+        df.columns = colnms
+        df.loc[:, 'shareholding'] = pd.to_numeric(df['shareholding']\
+                                         .str.replace(',',''), errors='coerce')
+        df.loc[:, 'ownership'] = pd.to_numeric(df['ownership']\
+                                         .str.replace('%', ''), errors='coerce')\
+                                               /100
+        return df
+    return formatter
+
+@tbl_post_processing
 def download_single_stock(sdate, edate, code):
     dts = pd.bdate_range(sdate, edate)
     dts = dts.union(pd.DatetimeIndex([edate]))
+    print(dts)
     assert len(dts) > 0
     dfs = []
     with GetCCASSData() as gcas:
@@ -16,15 +32,16 @@ def download_single_stock(sdate, edate, code):
                 gcas.click_search_button()
                 df = gcas.read_main_table()
                 curdt = gcas.get_current_date()
-                df.assign(code=str(code), date=curdt)
+                df = df.assign(code=str(code), date=curdt)
+                dfs.append(df)
             except ElementNotInteractableException:
                 print('Failed to retrieve {code} for {date}'.\
                       format(code=str(code), date=curdt))
-            dfs.append(df)
+
     df = pd.concat(dfs)
     return df
     
-    
+@tbl_post_processing    
 def run_for_single_stock_by_date(code, dt):
     with GetCCASSData() as gcas:
         gcas.click_date(dt)
@@ -34,7 +51,7 @@ def run_for_single_stock_by_date(code, dt):
             gcas.click_search_button()
             df = gcas.read_main_table()
             curdt = gcas.get_current_date()
-            df.assign(code=str(code), date=curdt)
+            df = df.assign(code=str(code), date=curdt)
         except ElementNotInteractableException:
             print('Failed to retrieve {code} for {date}'.\
                   format(code=str(code), date=curdt))
