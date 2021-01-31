@@ -11,7 +11,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 from dash_table import DataTable
 
-desc = "This starts the dashboard for the Top 10 Shareholders. If --testdata is passed, it will not scrape but use functions provided in testdata. This can be used to test the engine if the scrapped side is under maintenance (e.g. Sundays)."
+desc = "This starts the dashboard for the Top 10 Shareholders. If --testdata is passed, it will not scrape but use functions provided in testdata. This can be used to test the engine if the scrapped site is under maintenance (e.g. Sundays)."
 parser = argparse.ArgumentParser(description=desc)
 parser.add_argument('--testdata', action='store_true',
                     help='A boolean switch')
@@ -27,9 +27,10 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 edt = rc.get_current_date()
+print(edt)
 sdt = edt - pd.to_timedelta('365 days')
 
-def datepicker(mdate, edate, idnm='my-date-picker-single'):
+def datepicker(sdt, edt, idnm='my-date-picker-single'):
     fn = dcc.DatePickerSingle(
         id=idnm,
         min_date_allowed=sdt,
@@ -43,7 +44,7 @@ app.layout = html.Div([
     html.Title('CCASS Ownership Trend Plot'),
     datepicker(sdt, edt, 'start-date'),
     datepicker(sdt, edt, 'end-date'),
-    dcc.Input(id='code', value=0, type='number'),
+    dcc.Input(id='code', value=1, type='number'),
     html.Button('Download', id='download-button-state', n_clicks=0),
     DataTable(id='table', data=[], filter_action='native'),
     dcc.Graph(id='time-series-chart')
@@ -61,12 +62,22 @@ app.layout = html.Div([
 
 def update_output(nclicks, sdate, edate, code):
     df = fn(sdate, edate, code)
-    fig = px.line(df, x='date', y='ownership', color='owner')
-    ldf = df.loc[df['date'] == edate].sort_values('ownership', ascending=False)
+    ldate = min(pd.Timestamp(edate), df['date'].min())
+    if 'owner' in df.columns:
+        fig = px.line(df, x='date', y='ownership', color='owner')
+        ldf = df.loc[df['date'] == ldate].sort_values('ownership', ascending=False)\
+                .head(10)
+    else:
+        ldf = df.loc[df['date'] == ldate]\
+                .sort_values('shareholding', ascending=False).head(10)
+        
+        fig = px.line(df.loc[df['pid'].isin(ldf['pid'])],
+                      x='date', y='shareholding', color='pname')
     columns = [{'name':i, 'id':i} for i in ldf.columns]
     data = ldf.to_dict('records')
     return data, columns, fig
 
 if __name__ == '__main__':
     # fix this as it should run on a wsgi server
+    #app.run_server(debug=True, host='0.0.0.0')
     app.run_server(debug=True, host='0.0.0.0')
