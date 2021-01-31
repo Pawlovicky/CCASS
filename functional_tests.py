@@ -1,6 +1,7 @@
 from CCASS_SCRAPER.GetCCASSData import GetCCASSData
 from CCASS_SCRAPER.CCASSDownloadManager import CCASSDownloadManager
 from CCASS_SCRAPER import run_ccass as rc
+from CCASS_SCRAPER.TestData import get_holdings_test_data
 from selenium import webdriver
 import pandas as pd
 import os
