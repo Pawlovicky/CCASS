@@ -20,11 +20,12 @@ RUN apt-get install -y \
     python3-pip \
     python3-venv \
     vim
-RUN pip3 install selenium pandas lxml html5lib bs4
+RUN pip3 install selenium pandas lxml html5lib bs4 \
+         dash numpy
 RUN apt-get install -y sudo
 RUN adduser --disabled-password --gecos '' pavel
 RUN adduser pavel sudo
 RUN mkdir -p /home/pavel
 RUN /etc/init.d/dbus start
 RUN chown pavel /home/pavel
-#USER pavel
+USER pavel

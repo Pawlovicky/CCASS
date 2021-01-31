@@ -1,6 +1,7 @@
+#!/usr/bin/python3
 import argparse
 from CCASS_SCRAPER.TestData import get_holdings_test_data
-import CCASS_SCRAPER.run_ccass as rc
+from CCASS_SCRAPER import run_ccass as rc
 import pandas as pd
 from datetime import date
 import plotly.express as px
@@ -18,8 +19,9 @@ args = parser.parse_args()
 
 if args.testdata:
     fn = get_holdings_test_data
+    print('use testdata')
 else:
-    fn = rc.download_single_stock(sdate, edate, code)
+    fn = rc.download_single_stock
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -67,4 +69,5 @@ def update_output(nclicks, sdate, edate, code):
     return data, columns, fig
 
 if __name__ == '__main__':
-    app.run_server()
+    # fix this as it should run on a wsgi server
+    app.run_server(debug=True, host='0.0.0.0')
