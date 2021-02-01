@@ -70,7 +70,7 @@ def update_output(nclicks, sdate, edate, code):
     else:
         ldf = df.loc[df['date'] == ldate]\
                 .sort_values('shareholding', ascending=False).head(10)
-        
+        ldf.loc[:, 'ownership'] = ldf['ownership'].round(4)
         fig = px.line(df.loc[df['pid'].isin(ldf['pid'])],
                       x='date', y='shareholding', color='pname')
     columns = [{'name':i, 'id':i} for i in ldf.columns]
