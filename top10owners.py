@@ -62,7 +62,7 @@ app.layout = html.Div([
 
 def update_output(nclicks, sdate, edate, code):
     df = fn(sdate, edate, code)
-    ldate = min(pd.Timestamp(edate), df['date'].min())
+    ldate = min(pd.Timestamp(edate), df['date'].max())
     if 'owner' in df.columns:
         fig = px.line(df, x='date', y='ownership', color='owner')
         ldf = df.loc[df['date'] == ldate].sort_values('ownership', ascending=False)\
