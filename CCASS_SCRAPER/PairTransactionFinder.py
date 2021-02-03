@@ -13,7 +13,9 @@ def load_and_make_transaction_screen(sdt, edt, code, thresh):
     ptf = PairTransactionFinder(df, code)
     ptf = ptf.create_all_pairs()
     ptf = ptf.add_shareholder_changes_table(thresh=thresh)
-    ptf = ptf.add_discovery_features()
+    if ptf.pdf.shape[0] != 0:
+        ptf = ptf.add_discovery_features()
+    # will produce empty dataframe with correct columns if threshold is too high
     screen = ptf.output_screening(thresh=thresh)
     return screen
 
@@ -81,6 +83,11 @@ class PairTransactionFinder:
         return self
     
     def output_screening(self, thresh=0.001):
+        fcols = ['date', 'pid_i', 'pid_j', 'pname_i', 'pname_j',
+                 'diff_shareholding_i', 'diff_shareholding_j',
+                 '|dsi + dsj|/(|dsi| + |dsj|)', 'ndsi_i', 'ndsi_j']
+        if self.pdf.shape[0] == 0:
+            return pd.DataFrame(None, fcols)
         colnm = '|dsi + dsj|/(|dsi| + |dsj|)'
         threshrule = self.pdf['pctdiffshares_i'].abs() > thresh
         threshrule = threshrule & (self.pdf[colnm] < 0.1)
@@ -90,10 +97,7 @@ class PairTransactionFinder:
                  'diff_shareholding_i', 'diff_shareholding_j',
                  '|dsi + dsj|/(|dsi| + |dsj|)', 'pctdiffshares_i', 'pctdiffshares_j']
         screen = screen.loc[:, kcols]
-        kcols = ['date', 'pid_i', 'pid_j', 'pname_i', 'pname_j', 
-                 'diff_shareholding_i', 'diff_shareholding_j',
-                 '|dsi + dsj|/(|dsi| + |dsj|)', 'ndsi_i', 'ndsi_j']
-        screen.columns = kcols
+        screen.columns = fcols
         rcols = ['|dsi + dsj|/(|dsi| + |dsj|)', 'ndsi_i', 'ndsi_j']
         for col in rcols:
           screen.loc[:, col] = screen[col].round(5)
