@@ -6,6 +6,8 @@ from selenium.common.exceptions import ElementNotInteractableException
 def tbl_post_processing(fun):
     def formatter(*args, **kwargs):
         df = fun(*args, **kwargs)
+        if df is None:
+            return None
         colnms = ['pid', 'pname', 'address', 'shareholding', 'ownership', 'code',
                   'date']
         df.columns = colnms
@@ -32,11 +34,14 @@ def download_single_stock_by_daterange(dts, code):
                 df = df.assign(code=str(code), date=curdt)
                 dfs.append(df)
             except ElementNotInteractableException:
+                curdt = gcas.get_current_date()
                 print('Failed to retrieve {code} for {date}'.\
                       format(code=str(code), date=curdt))
-
-    df = pd.concat(dfs).drop_duplicates()
-    return df
+    if len(dfs) > 0:
+        df = pd.concat(dfs).drop_duplicates()
+        return df
+    else:
+        return None
     
 def download_single_stock(sdate, edate, code):
     dts = pd.bdate_range(sdate, edate)
