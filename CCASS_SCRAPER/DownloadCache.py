@@ -30,6 +30,8 @@ class DownloadCache:
             if len(dts) == 0:
                 return self
             df = rc.download_single_stock_by_daterange(dts, code)
+            if df is None:
+                return self
             df.loc[:, 'code'] = df['code'].astype(int)
             xdates = self.df.loc[self.df['code']==code, 'date'].unique()
             df = df.loc[~df['date'].isin(xdates)]

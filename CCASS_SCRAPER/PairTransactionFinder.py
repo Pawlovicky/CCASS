@@ -4,7 +4,10 @@ from CCASS_SCRAPER.DownloadCache import DownloadCache
 
 
 def load_and_make_transaction_screen(sdt, edt, code, thresh):
-    dcache = DownloadCache().load()
+    try:
+        dcache = DownloadCache().load()
+    except FileNotFoundError:
+        dcache = DownloadCache()
     dcache = dcache.download_single_stock(sdt, edt, code)
     df = dcache.add_features_for_diff_shares_and_output()
     ptf = PairTransactionFinder(df, code)
