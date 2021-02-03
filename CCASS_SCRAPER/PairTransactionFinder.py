@@ -11,17 +11,23 @@ def load_and_make_transaction_screen(sdt, edt, code, thresh):
     dcache = dcache.download_single_stock(sdt, edt, code)
     df = dcache.add_features_for_diff_shares_and_output()
     ptf = PairTransactionFinder(df, code)
-    ptf = ptf.create_all_pairs()
-    ptf = ptf.add_shareholder_changes_table(thresh=thresh)
-    if ptf.pdf.shape[0] != 0:
+    ptf = ptf.filter_by_threshold(thresh)
+    if ptf.df.shape[0] != 0:
+        ptf = ptf.create_all_pairs()
+        ptf = ptf.add_shareholder_changes_table()
         ptf = ptf.add_discovery_features()
-    # will produce empty dataframe with correct columns if threshold is too high
-    screen = ptf.output_screening(thresh=thresh)
+    screen = ptf.output_screening_or_empty_default()
     return screen
 
 class PairTransactionFinder:
     def __init__(self, df, code):
-        self.df = df.loc[df['code'] == code]
+        self.df = df.loc[df['code'] == code].copy(deep=True)
+    
+    def filter_by_threshold(self, thresh):
+        # this needs to be done early, as all pairs of participants is a
+        # nxn operation and will have severe impact on memory resources
+        self.df = self.df.loc[self.df['pctdiffshares'].abs() > thresh]
+        return self
     
     def create_all_pairs(self):
         pids = self.df['pid'].unique()
@@ -45,7 +51,7 @@ class PairTransactionFinder:
         self.pdf = pidx
         return self
     
-    def add_shareholder_changes_table(self, thresh=0.001):
+    def add_shareholder_changes_table(self):
         kcols = ['date', 'pid', 'pname', 'diff_shareholding', 'pctdiffshares']
         ren2i= dict(zip(kcols[1:], [x+'_i' for x in kcols[1:]]))
         ren2j = dict(zip(kcols[1:], [x+'_j' for x in kcols[1:]]))
@@ -53,8 +59,6 @@ class PairTransactionFinder:
         self.pdf = self.pdf.merge(self.df.loc[:, kcols].rename(columns=ren2i),
                        on=['date', 'pid_i'], how='left')\
                        .dropna(subset=['pctdiffshares_i'])
-        thresh = self.pdf['pctdiffshares_i'].abs() > thresh
-        self.pdf = self.pdf.loc[thresh]
         self.pdf = self.pdf.merge(self.df.loc[:, kcols].rename(columns=ren2j),
                        on=['date', 'pid_j'], how='left')
         return self
@@ -82,16 +86,14 @@ class PairTransactionFinder:
         
         return self
     
-    def output_screening(self, thresh=0.001):
+    def output_screening_or_empty_default(self):
         fcols = ['date', 'pid_i', 'pid_j', 'pname_i', 'pname_j',
                  'diff_shareholding_i', 'diff_shareholding_j',
                  '|dsi + dsj|/(|dsi| + |dsj|)', 'ndsi_i', 'ndsi_j']
-        if self.pdf.shape[0] == 0:
-            return pd.DataFrame(None, fcols)
+        if self.df.shape[0] == 0:
+            return pd.DataFrame(None, columns=fcols)
         colnm = '|dsi + dsj|/(|dsi| + |dsj|)'
-        threshrule = self.pdf['pctdiffshares_i'].abs() > thresh
-        threshrule = threshrule & (self.pdf[colnm] < 0.1)
-        colnm = '|dsi + dsj|/(|dsi| + |dsj|)'
+        threshrule = (self.pdf[colnm] < 0.1)
         screen = self.pdf.loc[threshrule].sort_values(['date', colnm])
         kcols = ['date', 'pid_i', 'pid_j', 'pname_i', 'pname_j', 
                  'diff_shareholding_i', 'diff_shareholding_j',
@@ -100,7 +102,7 @@ class PairTransactionFinder:
         screen.columns = fcols
         rcols = ['|dsi + dsj|/(|dsi| + |dsj|)', 'ndsi_i', 'ndsi_j']
         for col in rcols:
-          screen.loc[:, col] = screen[col].round(5)
+            screen.loc[:, col] = screen[col].round(5)
         return screen
     
         
