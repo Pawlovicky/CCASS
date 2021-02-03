@@ -1,6 +1,7 @@
 from CCASS_SCRAPER.GetCCASSData import GetCCASSData
 import pandas as pd
 import os
+from selenium.common.exceptions import ElementNotInteractableException
 
 def tbl_post_processing(fun):
     def formatter(*args, **kwargs):
@@ -17,11 +18,7 @@ def tbl_post_processing(fun):
     return formatter
 
 @tbl_post_processing
-def download_single_stock(sdate, edate, code):
-    dts = pd.bdate_range(sdate, edate)
-    dts = dts.union(pd.DatetimeIndex([edate]))
-    print(dts)
-    assert len(dts) > 0
+def download_single_stock_by_daterange(dts, code):
     dfs = []
     with GetCCASSData() as gcas:
         for dt in dts:
@@ -38,8 +35,15 @@ def download_single_stock(sdate, edate, code):
                 print('Failed to retrieve {code} for {date}'.\
                       format(code=str(code), date=curdt))
 
-    df = pd.concat(dfs)
+    df = pd.concat(dfs).drop_duplicates()
     return df
+    
+def download_single_stock(sdate, edate, code):
+    dts = pd.bdate_range(sdate, edate)
+    dts = dts.union(pd.DatetimeIndex([edate]))
+    print(dts)
+    assert len(dts) > 0
+    df = download_single_stock_by_daterange(dts, code)
     
 @tbl_post_processing    
 def run_for_single_stock_by_date(code, dt):
