@@ -12,7 +12,7 @@ def load_and_make_transaction_screen(sdt, edt, code, thresh):
     df = dcache.add_features_for_diff_shares_and_output()
     ptf = PairTransactionFinder(df, code)
     ptf = ptf.create_all_pairs()
-    ptf = ptf.add_shareholder_changes_table()
+    ptf = ptf.add_shareholder_changes_table(thresh=thresh)
     ptf = ptf.add_discovery_features()
     screen = ptf.output_screening(thresh=thresh)
     return screen
@@ -43,13 +43,16 @@ class PairTransactionFinder:
         self.pdf = pidx
         return self
     
-    def add_shareholder_changes_table(self):
+    def add_shareholder_changes_table(self, thresh=0.001):
         kcols = ['date', 'pid', 'pname', 'diff_shareholding', 'pctdiffshares']
         ren2i= dict(zip(kcols[1:], [x+'_i' for x in kcols[1:]]))
         ren2j = dict(zip(kcols[1:], [x+'_j' for x in kcols[1:]]))
         rencols = {'pid':'pid_i'}
         self.pdf = self.pdf.merge(self.df.loc[:, kcols].rename(columns=ren2i),
-                       on=['date', 'pid_i'], how='left')
+                       on=['date', 'pid_i'], how='left')\
+                       .dropna(subset=['pctdiffshares_i'])
+        thresh = self.pdf['pctdiffshares_i'].abs() > thresh
+        self.pdf = self.pdf.loc[thresh]
         self.pdf = self.pdf.merge(self.df.loc[:, kcols].rename(columns=ren2j),
                        on=['date', 'pid_j'], how='left')
         return self
