@@ -20,6 +20,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 edt = rc.get_current_date()
 sdt = edt - pd.to_timedelta('365 days')
+sdefaultdt = pd.bdate_range(sdt, edt)[-2]
 desc = """LEGEND
 
 diff_shareholding_i,j: difference between current and previous date shareholding
@@ -39,22 +40,22 @@ of potential pair transactions.
        """
 
 
-def datepicker(sdt, edt, idnm='my-date-picker-single'):
+def datepicker(sdt, edt, defaultdate, idnm='my-date-picker-single'):
     fn = dcc.DatePickerSingle(
         id=idnm,
         min_date_allowed=sdt,
         max_date_allowed=edt,
         initial_visible_month=edt,
-        date=edt
+        date=defaultdate
     )
     return fn
 
 app.layout = html.Div([
     html.H2('CCASS Participation Transaction Screening'),
-    datepicker(sdt, edt, 'start-date'),
-    datepicker(sdt, edt, 'end-date'),
+    datepicker(sdt, edt, sdefaultdt, 'start-date'),
+    datepicker(sdt, edt, edt, 'end-date'),
     dcc.Input(id='code', value=1, type='number'),
-    dcc.Input(id='threshold', value=0.01, type='number'),
+    dcc.Input(id='threshold', value=0.0001, type='number'),
     html.Button('Update', id='download-button-state', n_clicks=0),
     DataTable(id='table', data=[], filter_action='native'),
     dcc.Markdown(desc)
@@ -71,7 +72,14 @@ app.layout = html.Div([
     State('threshold',   'value'))
 
 def update_output(nclicks, sdate, edate, code, threshold):
+    print('{s}, {e}, {c}, {t}'.format(s=sdate, e=edate, c=code, t=threshold))
     ldf = PTF.load_and_make_transaction_screen(sdate, edate, code, threshold)
+    print('show results')
+    print(ldf)
+    #fcols = ['date', 'pid_i', 'pid_j', 'pname_i', 'pname_j', 
+    #         'diff_shareholding_i', 'diff_shareholding_j',
+    #         '|dsi + dsj|/(|dsi| + |dsj|)', 'ndsi_i', 'ndsi_j']
+    #ldf = pd.DataFrame(None, columns=fcols)
     columns = [{'name':i, 'id':i} for i in ldf.columns]
     data = ldf.to_dict('records')
     return data, columns
