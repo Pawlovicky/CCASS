@@ -2,6 +2,8 @@ from CCASS_SCRAPER.GetCCASSData import GetCCASSData
 from CCASS_SCRAPER.CCASSDownloadManager import CCASSDownloadManager
 from CCASS_SCRAPER import run_ccass as rc
 from CCASS_SCRAPER.TestData import get_holdings_test_data
+from CCASS_SCRAPER import PairTransactionFinder as PTF
+from CCASS_SCRAPER.DownloadCache import DownloadCache
 from selenium import webdriver
 import pandas as pd
 import os
@@ -36,5 +38,25 @@ class TestDataTester(unittest.TestCase):
         df = get_holdings_test_data(startdate, enddate, 1)
         self.assertTrue(df.shape[0] > 0)
         
+class TestDownloadCache(unittest.TestCase):
+    def setUp(self):
+        try:
+            dcache = DownloadCache().load()
+        except FileNotFoundError:
+            dcache = DownloadCache()
+        self.dcache = dcache
+
+    def test_if_we_can_update_existing_file(self):
+        code = 9988
+        edt = self.dcache.df.loc[self.dcache.df['code'] == code].date.min()
+        if edt is pd.NaT:
+            edt = rc.get_current_date()
+        dts = pd.bdate_range(edt-pd.to_timedelta('20 days'), edt)
+        sdt = dts[-2]
+        self.dcache = self.dcache.download_single_stock(sdt, edt, code)
+        df = self.dcache.df
+        self.assertEqual(df.loc[df['code'] == code, 'date'].min(), sdt)
+
+
 if __name__ == '__main__':  
     unittest.main()
