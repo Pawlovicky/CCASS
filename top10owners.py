@@ -41,7 +41,7 @@ def datepicker(sdt, edt, idnm='my-date-picker-single'):
     return fn
 
 app.layout = html.Div([
-    html.Title('CCASS Ownership Trend Plot'),
+    html.H2('CCASS Ownership Trend Plot'),
     datepicker(sdt, edt, 'start-date'),
     datepicker(sdt, edt, 'end-date'),
     dcc.Input(id='code', value=1, type='number'),
