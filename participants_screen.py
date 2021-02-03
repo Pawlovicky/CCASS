@@ -15,10 +15,7 @@ from CCASS_SCRAPER import PairTransactionFinder as PTF
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-from jupyter_dash import JupyterDash
-app = JupyterDash(__name__, external_stylesheets=external_stylesheets)
-
-#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 
 edt = rc.get_current_date()
