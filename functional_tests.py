@@ -48,7 +48,9 @@ class TestDownloadCache(unittest.TestCase):
 
     def test_if_we_can_update_existing_file(self):
         code = 9988
-        edt = self.dcache.df.loc[self.dcache.df['code'] == code].date.min()
+        edt = pd.NaT
+        if self.dcache.df is not None:
+            edt = self.dcache.df.loc[self.dcache.df['code'] == code].date.min()
         if edt is pd.NaT:
             edt = rc.get_current_date()
         dts = pd.bdate_range(edt-pd.to_timedelta('20 days'), edt)
