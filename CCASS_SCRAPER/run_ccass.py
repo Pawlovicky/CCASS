@@ -46,7 +46,6 @@ def download_single_stock_by_daterange(dts, code):
 def download_single_stock(sdate, edate, code):
     dts = pd.bdate_range(sdate, edate)
     dts = dts.union(pd.DatetimeIndex([edate]))
-    print(dts)
     assert len(dts) > 0
     df = download_single_stock_by_daterange(dts, code)
     

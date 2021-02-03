@@ -23,7 +23,7 @@ RUN apt-get install -y \
 RUN pip3 install selenium pandas lxml html5lib bs4 \
          dash numpy
 RUN apt-get install -y sudo
-RUN adduser --disabled-password --gecos '' pavel
+RUN adduser --uid 1001 --disabled-password --gecos '' pavel
 RUN adduser pavel sudo
 RUN mkdir -p /home/pavel
 RUN /etc/init.d/dbus start
