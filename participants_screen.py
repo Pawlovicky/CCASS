@@ -74,12 +74,6 @@ app.layout = html.Div([
 def update_output(nclicks, sdate, edate, code, threshold):
     print('{s}, {e}, {c}, {t}'.format(s=sdate, e=edate, c=code, t=threshold))
     ldf = PTF.load_and_make_transaction_screen(sdate, edate, code, threshold)
-    print('show results')
-    print(ldf)
-    #fcols = ['date', 'pid_i', 'pid_j', 'pname_i', 'pname_j', 
-    #         'diff_shareholding_i', 'diff_shareholding_j',
-    #         '|dsi + dsj|/(|dsi| + |dsj|)', 'ndsi_i', 'ndsi_j']
-    #ldf = pd.DataFrame(None, columns=fcols)
     columns = [{'name':i, 'id':i} for i in ldf.columns]
     data = ldf.to_dict('records')
     return data, columns

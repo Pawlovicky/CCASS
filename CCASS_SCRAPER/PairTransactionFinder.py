@@ -10,6 +10,8 @@ def load_and_make_transaction_screen(sdt, edt, code, thresh):
         dcache = DownloadCache()
     dcache = dcache.download_single_stock(sdt, edt, code)
     df = dcache.add_features_for_diff_shares_and_output()
+    dtrange = (sdt <= df['date']) & (df['date'] <= edt)
+    df = df.loc[dtrange].copy(deep=True)
     ptf = PairTransactionFinder(df, code)
     ptf = ptf.filter_by_threshold_and_date(thresh, sdt, edt)
     if ptf.df.shape[0] != 0:
