@@ -11,7 +11,7 @@ def load_and_make_transaction_screen(sdt, edt, code, thresh):
     dcache = dcache.download_single_stock(sdt, edt, code)
     df = dcache.add_features_for_diff_shares_and_output()
     ptf = PairTransactionFinder(df, code)
-    ptf = ptf.filter_by_threshold(thresh)
+    ptf = ptf.filter_by_threshold_and_date(thresh, sdt, edt)
     if ptf.df.shape[0] != 0:
         ptf = ptf.create_all_pairs()
         ptf = ptf.add_shareholder_changes_table()
@@ -19,14 +19,35 @@ def load_and_make_transaction_screen(sdt, edt, code, thresh):
     screen = ptf.output_screening_or_empty_default()
     return screen
 
+def load_and_make_both_screens(sdt, edt, code, thresh):
+    try:
+        dcache = DownloadCache().load()
+    except FileNotFoundError:
+        dcache = DownloadCache()
+    dcache = dcache.download_single_stock(sdt, edt, code)
+    df = dcache.add_features_for_diff_shares_and_output()
+    ptf = PairTransactionFinder(df, code)
+    ptf = ptf.filter_by_threshold(thresh)
+    if ptf.df.shape[0] != 0:
+        ptf = ptf.create_all_pairs()
+        ptf = ptf.add_shareholder_changes_table()
+        ptf = ptf.add_discovery_features()
+    screen = ptf.output_screening_or_empty_default()
+    return df, screen
+
 class PairTransactionFinder:
     def __init__(self, df, code):
         self.df = df.loc[df['code'] == code].copy(deep=True)
     
-    def filter_by_threshold(self, thresh):
+    def filter_by_threshold_and_date(self, thresh, sdate=None, edate=None):
         # this needs to be done early, as all pairs of participants is a
         # nxn operation and will have severe impact on memory resources
-        self.df = self.df.loc[self.df['pctdiffshares'].abs() > thresh]
+        frule = True
+        if sdate is not None:
+            dtrng = (sdate <= self.df['date']) & (self.df['date'] <= edate)
+            frule = frule & dtrng
+        frule = frule & (self.df['pctdiffshares'].abs() > thresh)
+        self.df = self.df.loc[frule]
         return self
     
     def create_all_pairs(self):
