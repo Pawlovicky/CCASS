@@ -1,7 +1,7 @@
 from CCASS_SCRAPER.GetCCASSData import GetCCASSData
 import pandas as pd
 import os
-from selenium.common.exceptions import ElementNotInteractableException
+from selenium.common.exceptions import ElementNotInteractableException, UnexpectedAlertPresentException
 
 def tbl_post_processing(fun):
     def formatter(*args, **kwargs):
@@ -23,7 +23,7 @@ def tbl_post_processing(fun):
 def download_single_stock_by_daterange(dts, code):
     dfs = []
     with GetCCASSData() as gcas:
-        for dt in dts:
+        for dt in dts[::-1]:
             gcas.click_date(dt)
             gcas.enter_stock(code)
             try:
@@ -33,10 +33,11 @@ def download_single_stock_by_daterange(dts, code):
                 curdt = gcas.get_current_date()
                 df = df.assign(code=str(code), date=curdt)
                 dfs.append(df)
-            except ElementNotInteractableException:
+            except (ElementNotInteractableException, UnexpectedAlertPresentException):
                 curdt = gcas.get_current_date()
                 print('Failed to retrieve {code} for {date}'.\
                       format(code=str(code), date=curdt))
+                break
     if len(dfs) > 0:
         df = pd.concat(dfs).drop_duplicates()
         return df
