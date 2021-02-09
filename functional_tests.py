@@ -59,6 +59,39 @@ class TestDownloadCache(unittest.TestCase):
         df = self.dcache.df
         self.assertEqual(df.loc[df['code'] == code, 'date'].min(), sdt)
 
-
+class TestPairTransactionFinder(unittest.TestCase):
+    
+    def test_screen_1(self):
+        sdate = pd.Timestamp('2020-12-08')
+        edate = pd.Timestamp('2021-02-08')
+        code = 1
+        threshold = 0.01
+        ldf = PTF.load_and_make_transaction_screen(sdate, edate, code, threshold)
+        self.assertEqual(ldf.shape[0], 0)
+    
+    def test_screen_2(self):
+        sdate = pd.Timestamp('2020-12-08')
+        edate = pd.Timestamp('2021-02-08')
+        code = 5
+        threshold = 0.001
+        ldf = PTF.load_and_make_transaction_screen(sdate, edate, code, threshold)
+        self.assertEqual(ldf.shape[0], 7)
+        
+    def test_screen_3(self):
+        sdate = pd.Timestamp('2020-12-08')
+        edate = pd.Timestamp('2021-02-08')
+        code = 3690
+        threshold = 0.001
+        ldf = PTF.load_and_make_transaction_screen(sdate, edate, code, threshold)
+        self.assertEqual(ldf.shape[0], 11)
+        
+    def test_kuaishou(self):
+        sdate = pd.Timestamp('2021-01-01')
+        edate = pd.Timestamp('2021-02-08')
+        code = 1024
+        threshold = 0.00001
+        ldf = PTF.load_and_make_transaction_screen(sdate, edate, code, threshold)
+        self.assertEqual(ldf.shape[0], 2)
+        
 if __name__ == '__main__':  
     unittest.main()
