@@ -34,9 +34,8 @@ def download_single_stock_by_daterange(dts, code):
                 df = df.assign(code=str(code), date=curdt)
                 dfs.append(df)
             except (ElementNotInteractableException, UnexpectedAlertPresentException):
-                curdt = gcas.get_current_date()
                 print('Failed to retrieve {code} for {date}'.\
-                      format(code=str(code), date=curdt))
+                      format(code=str(code), date=dt))
                 break
     if len(dfs) > 0:
         df = pd.concat(dfs).drop_duplicates()
